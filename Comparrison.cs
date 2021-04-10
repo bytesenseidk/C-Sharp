@@ -3,10 +3,13 @@ using System;
 namespace CSharp {
     class Comparison {
         static void Main(string[] args) {
-            string string_1 =  "Hello!";
-            string string_2 =  "Hello!";
-            bool result = Compare(string_1, string_2);
-            System.Console.WriteLine(result);
+            string string_1 = "Hello!";
+            string string_2 = "Hello!";
+            string string_3 = "coding";
+            bool result_1 = Compare(string_1, string_2);
+            bool result_2 = Compare(string_1, string_3);
+            System.Console.WriteLine($"Is '{string_1}' equal to '{string_2}': {result_1}");
+            System.Console.WriteLine($"Is '{string_1}' equal to '{string_3}': {result_2}");
         }
         static bool Compare(string string_1, string string_2) {
             int counter = 0;
@@ -30,3 +33,4 @@ namespace CSharp {
         }
     }
 }
+
