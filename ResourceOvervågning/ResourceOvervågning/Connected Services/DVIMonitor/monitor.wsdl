@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://dvimonitor.azurewebsites.net/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://dvimonitor.azurewebsites.net/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://dvimonitor.azurewebsites.net/">
+      <s:element name="StockTemp">
+        <s:complexType />
+      </s:element>
+      <s:element name="StockTempResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="StockTempResult" type="s:double" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="StockHumidity">
+        <s:complexType />
+      </s:element>
+      <s:element name="StockHumidityResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="StockHumidityResult" type="s:double" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="OutdoorTemp">
+        <s:complexType />
+      </s:element>
+      <s:element name="OutdoorTempResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="OutdoorTempResult" type="s:double" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="OutdoorHumidity">
+        <s:complexType />
+      </s:element>
+      <s:element name="OutdoorHumidityResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="OutdoorHumidityResult" type="s:double" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="StockItemsUnderMin">
+        <s:complexType />
+      </s:element>
+      <s:element name="StockItemsUnderMinResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="StockItemsUnderMinResult" type="tns:ArrayOfString" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfString">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="string" nillable="true" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="StockItemsOverMax">
+        <s:complexType />
+      </s:element>
+      <s:element name="StockItemsOverMaxResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="StockItemsOverMaxResult" type="tns:ArrayOfString" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="StockItemsMostSold">
+        <s:complexType />
+      </s:element>
+      <s:element name="StockItemsMostSoldResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="StockItemsMostSoldResult" type="tns:ArrayOfString" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="StockTempSoapIn">
+    <wsdl:part name="parameters" element="tns:StockTemp" />
+  </wsdl:message>
+  <wsdl:message name="StockTempSoapOut">
+    <wsdl:part name="parameters" element="tns:StockTempResponse" />
+  </wsdl:message>
+  <wsdl:message name="StockHumiditySoapIn">
+    <wsdl:part name="parameters" element="tns:StockHumidity" />
+  </wsdl:message>
+  <wsdl:message name="StockHumiditySoapOut">
+    <wsdl:part name="parameters" element="tns:StockHumidityResponse" />
+  </wsdl:message>
+  <wsdl:message name="OutdoorTempSoapIn">
+    <wsdl:part name="parameters" element="tns:OutdoorTemp" />
+  </wsdl:message>
+  <wsdl:message name="OutdoorTempSoapOut">
+    <wsdl:part name="parameters" element="tns:OutdoorTempResponse" />
+  </wsdl:message>
+  <wsdl:message name="OutdoorHumiditySoapIn">
+    <wsdl:part name="parameters" element="tns:OutdoorHumidity" />
+  </wsdl:message>
+  <wsdl:message name="OutdoorHumiditySoapOut">
+    <wsdl:part name="parameters" element="tns:OutdoorHumidityResponse" />
+  </wsdl:message>
+  <wsdl:message name="StockItemsUnderMinSoapIn">
+    <wsdl:part name="parameters" element="tns:StockItemsUnderMin" />
+  </wsdl:message>
+  <wsdl:message name="StockItemsUnderMinSoapOut">
+    <wsdl:part name="parameters" element="tns:StockItemsUnderMinResponse" />
+  </wsdl:message>
+  <wsdl:message name="StockItemsOverMaxSoapIn">
+    <wsdl:part name="parameters" element="tns:StockItemsOverMax" />
+  </wsdl:message>
+  <wsdl:message name="StockItemsOverMaxSoapOut">
+    <wsdl:part name="parameters" element="tns:StockItemsOverMaxResponse" />
+  </wsdl:message>
+  <wsdl:message name="StockItemsMostSoldSoapIn">
+    <wsdl:part name="parameters" element="tns:StockItemsMostSold" />
+  </wsdl:message>
+  <wsdl:message name="StockItemsMostSoldSoapOut">
+    <wsdl:part name="parameters" element="tns:StockItemsMostSoldResponse" />
+  </wsdl:message>
+  <wsdl:portType name="monitorSoap">
+    <wsdl:operation name="StockTemp">
+      <wsdl:input message="tns:StockTempSoapIn" />
+      <wsdl:output message="tns:StockTempSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="StockHumidity">
+      <wsdl:input message="tns:StockHumiditySoapIn" />
+      <wsdl:output message="tns:StockHumiditySoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="OutdoorTemp">
+      <wsdl:input message="tns:OutdoorTempSoapIn" />
+      <wsdl:output message="tns:OutdoorTempSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="OutdoorHumidity">
+      <wsdl:input message="tns:OutdoorHumiditySoapIn" />
+      <wsdl:output message="tns:OutdoorHumiditySoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="StockItemsUnderMin">
+      <wsdl:input message="tns:StockItemsUnderMinSoapIn" />
+      <wsdl:output message="tns:StockItemsUnderMinSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="StockItemsOverMax">
+      <wsdl:input message="tns:StockItemsOverMaxSoapIn" />
+      <wsdl:output message="tns:StockItemsOverMaxSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="StockItemsMostSold">
+      <wsdl:input message="tns:StockItemsMostSoldSoapIn" />
+      <wsdl:output message="tns:StockItemsMostSoldSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="monitorSoap" type="tns:monitorSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="StockTemp">
+      <soap:operation soapAction="http://dvimonitor.azurewebsites.net/StockTemp" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="StockHumidity">
+      <soap:operation soapAction="http://dvimonitor.azurewebsites.net/StockHumidity" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="OutdoorTemp">
+      <soap:operation soapAction="http://dvimonitor.azurewebsites.net/OutdoorTemp" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="OutdoorHumidity">
+      <soap:operation soapAction="http://dvimonitor.azurewebsites.net/OutdoorHumidity" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="StockItemsUnderMin">
+      <soap:operation soapAction="http://dvimonitor.azurewebsites.net/StockItemsUnderMin" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="StockItemsOverMax">
+      <soap:operation soapAction="http://dvimonitor.azurewebsites.net/StockItemsOverMax" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="StockItemsMostSold">
+      <soap:operation soapAction="http://dvimonitor.azurewebsites.net/StockItemsMostSold" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="monitorSoap12" type="tns:monitorSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="StockTemp">
+      <soap12:operation soapAction="http://dvimonitor.azurewebsites.net/StockTemp" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="StockHumidity">
+      <soap12:operation soapAction="http://dvimonitor.azurewebsites.net/StockHumidity" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="OutdoorTemp">
+      <soap12:operation soapAction="http://dvimonitor.azurewebsites.net/OutdoorTemp" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="OutdoorHumidity">
+      <soap12:operation soapAction="http://dvimonitor.azurewebsites.net/OutdoorHumidity" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="StockItemsUnderMin">
+      <soap12:operation soapAction="http://dvimonitor.azurewebsites.net/StockItemsUnderMin" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="StockItemsOverMax">
+      <soap12:operation soapAction="http://dvimonitor.azurewebsites.net/StockItemsOverMax" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="StockItemsMostSold">
+      <soap12:operation soapAction="http://dvimonitor.azurewebsites.net/StockItemsMostSold" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="monitor">
+    <wsdl:port name="monitorSoap" binding="tns:monitorSoap">
+      <soap:address location="http://dvimonitor.azurewebsites.net/monitor.asmx" />
+    </wsdl:port>
+    <wsdl:port name="monitorSoap12" binding="tns:monitorSoap12">
+      <soap12:address location="http://dvimonitor.azurewebsites.net/monitor.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>
