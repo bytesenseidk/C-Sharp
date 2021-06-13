@@ -1,8 +1,12 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using ConsoleTables;
 using System.Threading.Tasks;
+using System.Collections.Generic;
+
+// Nødvendig package der installeres under Tools > NuGet Package Manager > Package Manager Console
+// Under konsolen, skriv: Install-Package ConsoleTables -Version 2.4.2
 
 namespace ResourceOvervågning
 {
@@ -10,150 +14,53 @@ namespace ResourceOvervågning
     {
         static void Main(string[] args)
         {
+            // Opdateringstid: 1 min = 60.000 ms.
+            int sleeptime = 5 * 60000;
 
-            Dictionary<string, string> data = ResourceData();
-            Console.WriteLine(data["Lager"]);
-            Console.WriteLine("\n\n");
-            Console.WriteLine(data["Klima"]);
-
-            Console.Write("Press any key to continue...");
-            Console.ReadKey();
+            // Uendeligt loop
+            while (true)
+            {
+                // Print Resource Tabel.
+                ResourceData();
+                // Vent 5 Minutter.
+                System.Threading.Thread.Sleep(sleeptime);
+            }
         }
 
-        static Dictionary<string, string> ResourceData()
+        static void ResourceData()
         {
+            // API Instans.
             DVIMonitor.monitorSoapClient ds = new DVIMonitor.monitorSoapClient();
-
-            // Lager Informationer
-            string varer = "=====================[ Varelager ]=====================\n";
-            varer += "\n_____________________[ Mest Solgt ]____________________\n";
-            foreach (string element in ds.StockItemsMostSold()) { varer += $"{element}\n"; }
-            varer += "\n____________________[ Over Maximum ]___________________\n";
-            foreach (string element in ds.StockItemsOverMax()) { varer += $"{element}\n"; }
-            varer += "\n___________________[ Under Minimum ]___________________\n";
-            foreach (string element in ds.StockItemsUnderMin()) { varer += $"{element}\n"; }
-
-            // Klima Informationer
-            string klima = "========================[ Klima ]======================\n";
-            klima += "\n________________________[ Lager ]______________________\n";
-            klima += $"Temperatur: {ds.StockTemp()}°C\n";
-            klima += $"Fugtighed:  {ds.StockHumidity()}%\n";
-            klima += "_______________________[ Udendørs ]____________________\n";
-            klima += $"Temperatur: {ds.OutdoorTemp()}°C\n";
-            klima += $"Fugtighed:  {ds.OutdoorHumidity()}%\n";
-
-            Dictionary<string, string> resultater = new Dictionary<string, string>
-            {
-                {"Lager", varer},
-                {"Klima", klima }
-            };
-
-            return resultater;
-        }
-    }
-}
-
-
-
-/*static Dictionary<string, string> MonitorData(string key)
-{
-    //  Instans af monitorSoapClient (Online Data)
-    DVIMonitor.monitorSoapClient ds = new DVIMonitor.monitorSoapClient();
-
-    // Lager Informationer
-    string varer = "========================[ Varelager ]======================\n";
-    varer += "\n_____________________[ Mest Solgt ]____________________\n";
-    foreach (string element in ds.StockItemsMostSold()) { varer += $"{element}\n\n"; }
-    varer += "\n____________________[ Over Maximum ]___________________\n";
-    foreach (string element in ds.StockItemsOverMax()) { varer += $"{element}\n\n"; }
-    varer += "\n___________________[ Under Minimum ]___________________\n";
-    foreach (string element in ds.StockItemsUnderMin()) { varer += $"{element}\n"; }
-
-    // Klima Informationer
-    string klima = "========================[ Lager Klima ]======================\n";
-    klima += "\n_____________________[ Temperatur ]____________________\n";
-    foreach (string element in ds.StockTemp().ToString() { klima += $"{element}\n\n"; }
-    klima += "\n____________________[ Fugtighed ]___________________\n";
-    foreach (string element in ds.StockHumidity().ToString() { klima += $"{element}\n\n"; }
-
-    string klima = "========================[ Udendørs Klima ]======================\n";
-    klima += "\n_____________________[ Temperatur ]____________________\n";
-    foreach (string element in ds.OutdoorTemp().ToString() { klima += $"{element}\n\n"; }
-    klima += "\n____________________[ Fugtighed ]___________________\n";
-    foreach (string element in ds.OutdoorHumidity().ToString() { klima += $"{element}\n\n"; }
-
-    Dictionary<string, string> monitor_data = new Dictionary<string, string>()
-    {
-        {"lager", varer},
-        {"klima", klima}
-    };
-
-    return monitor_data[key];
-} */
-
-/*
-
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace MonitorService
-{
-    class Program
-    {
-        static void Main(string[] args)
-        {
-            string lager_data = monitorData("lager");
-            string klima_data = monitorData("klima");
-
-            Console.WriteLine(klima_data);
-
-            Console.WriteLine("\n\nPress Enter to continue..");
-            Console.ReadLine();
-        }
-
-        static Dictionary<string, string> MonitorData(string key)
-        {
             
-              //  Instans af monitorSoapClient (Online Data)
-             
+            /* Lager Informationer */
+            string mest_solgt = "";
+            string over_max   = "";
+            // Liste indeholdende stringe (Arrays kan ikke tillægges nye værdier)
+            List<string> under_min = new List<string>();
+            // Tillæg div. værdier til variablerne.
+            foreach(string element in ds.StockItemsMostSold()) { mest_solgt += $"{element.Trim()}"; }
+            foreach(string element in ds.StockItemsOverMax()) { over_max += $"{element.Trim()}"; }
+            foreach (string element in ds.StockItemsUnderMin()) { under_min.Add(element); }
+            string[] u_min = under_min.ToArray();
+            // Lager Tabel.
+            var lager = new ConsoleTable("Mest Solgte Varer: ", mest_solgt);
+            lager.AddRow("Varer Under Minimum: ", under_min[0])
+                 .AddRow("", under_min[1])
+                 .AddRow("Varer Over Maximum: ", over_max);
+            lager.Write(Format.Alternative);
 
-DVIService.monitorSoapClient ds = new DVIService.monitorSoapClient();
+            /* Klima Informationer */
+            string lager_temp      = $"Lager: {ds.StockTemp()}°C";
+            string lager_fugtighed = $"Lager: {ds.StockHumidity()}%";
+            string ude_temp        = $"Ude: {ds.OutdoorTemp()}°C";
+            string ude_fugtighed   = $"Ude: {ds.OutdoorHumidity()}%";
+            // Klima Tabel
+            var klima = new ConsoleTable("[ TEMPERATUR ]", "[ FUGTIGHED ]");
+            klima.AddRow(lager_temp, lager_fugtighed)
+                 .AddRow(ude_temp, ude_fugtighed);
+            klima.Write(Format.Alternative);
 
-// Lager Informationer
-string varer = "========================[ Varelager ]======================\n";
-varer += "\n_____________________[ Mest Solgt ]____________________\n";
-foreach (string element in ds.StockItemsMostSold()) { varer += $"{element}\n\n"; }
-varer += "\n____________________[ Over Maximum ]___________________\n";
-foreach (string element in ds.StockItemsOverMax()) { varer += $"{element}\n\n"; }
-varer += "\n___________________[ Under Minimum ]___________________\n";
-foreach (string element in ds.StockItemsUnderMin()) { varer += $"{element}\n"; }
-
-// Klima Informationer
-string klima = "========================[ Lager Klima ]======================\n";
-klima += "\n_____________________[ Temperatur ]____________________\n";
-foreach (string element in ds.StockTemp()) { klima += $"{element}\n\n"; }
-klima += "\n____________________[ Fugtighed ]___________________\n";
-foreach (string element in ds.StockHumidity()) { klima += $"{element}\n\n"; }
-
-string klima = "========================[ Udendørs Klima ]======================\n";
-klima += "\n_____________________[ Temperatur ]____________________\n";
-foreach (string element in ds.OutdoorTemp()) { klima += $"{element}\n\n"; }
-klima += "\n____________________[ Fugtighed ]___________________\n";
-foreach (string element in ds.OutdoorHumidity()) { klima += $"{element}\n\n"; }
-
-Dictionary<string, string> monitor_data = new Dictionary<string, string>()
-            {
-                {"lager", varer},
-                {"klima", klima}
-            };
-
-return monitor_data[key];
+            return;
         }
     }
 }
-
-
-*/

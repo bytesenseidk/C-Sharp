@@ -5,3 +5,13 @@ C:\Users\Laptop\Documents\Code\Github_Repos\ResourceOvervågning\ResourceOvervå
 C:\Users\Laptop\Documents\Code\Github_Repos\ResourceOvervågning\ResourceOvervågning\obj\Debug\ResourceOvervågning.csproj.CoreCompileInputs.cache
 C:\Users\Laptop\Documents\Code\Github_Repos\ResourceOvervågning\ResourceOvervågning\obj\Debug\ResourceOvervågning.exe
 C:\Users\Laptop\Documents\Code\Github_Repos\ResourceOvervågning\ResourceOvervågning\obj\Debug\ResourceOvervågning.pdb
+C:\Users\Anonymous\Documents\GitHub\C_Sharp-Projects\ResourceOvervågning\ResourceOvervågning\bin\Debug\ResourceOvervågning.exe.config
+C:\Users\Anonymous\Documents\GitHub\C_Sharp-Projects\ResourceOvervågning\ResourceOvervågning\bin\Debug\ResourceOvervågning.exe
+C:\Users\Anonymous\Documents\GitHub\C_Sharp-Projects\ResourceOvervågning\ResourceOvervågning\bin\Debug\ResourceOvervågning.pdb
+C:\Users\Anonymous\Documents\GitHub\C_Sharp-Projects\ResourceOvervågning\ResourceOvervågning\obj\Debug\ResourceOvervågning.csproj.AssemblyReference.cache
+C:\Users\Anonymous\Documents\GitHub\C_Sharp-Projects\ResourceOvervågning\ResourceOvervågning\obj\Debug\ResourceOvervågning.csproj.CoreCompileInputs.cache
+C:\Users\Anonymous\Documents\GitHub\C_Sharp-Projects\ResourceOvervågning\ResourceOvervågning\obj\Debug\ResourceOvervågning.exe
+C:\Users\Anonymous\Documents\GitHub\C_Sharp-Projects\ResourceOvervågning\ResourceOvervågning\obj\Debug\ResourceOvervågning.pdb
+C:\Users\Anonymous\Documents\GitHub\C_Sharp-Projects\ResourceOvervågning\ResourceOvervågning\bin\Debug\ConsoleTables.dll
+C:\Users\Anonymous\Documents\GitHub\C_Sharp-Projects\ResourceOvervågning\ResourceOvervågning\bin\Debug\ConsoleTables.pdb
+C:\Users\Anonymous\Documents\GitHub\C_Sharp-Projects\ResourceOvervågning\ResourceOvervågning\obj\Debug\ResourceOvervågning.csproj.CopyComplete
