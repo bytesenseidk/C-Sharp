@@ -129,7 +129,6 @@ namespace ResourceApp_GUI
             this.toplabel_nyheder.Size = new System.Drawing.Size(100, 25);
             this.toplabel_nyheder.TabIndex = 6;
             this.toplabel_nyheder.Text = "Nyheder";
-            this.toplabel_nyheder.Click += new System.EventHandler(this.label4_Click);
             // 
             // label_lager_temp
             // 
@@ -190,7 +189,6 @@ namespace ResourceApp_GUI
             this.label_tid_ldn.Size = new System.Drawing.Size(67, 20);
             this.label_tid_ldn.TabIndex = 12;
             this.label_tid_ldn.Text = "London:";
-            this.label_tid_ldn.Click += new System.EventHandler(this.label1_Click);
             // 
             // label_tid_sgp
             // 
@@ -307,6 +305,7 @@ namespace ResourceApp_GUI
             // resultat_lstatus_min
             // 
             this.resultat_lstatus_min.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.resultat_lstatus_min.ForeColor = System.Drawing.Color.Maroon;
             this.resultat_lstatus_min.Location = new System.Drawing.Point(524, 64);
             this.resultat_lstatus_min.Name = "resultat_lstatus_min";
             this.resultat_lstatus_min.Size = new System.Drawing.Size(264, 75);
@@ -316,6 +315,7 @@ namespace ResourceApp_GUI
             // resultat_lstatus_max
             // 
             this.resultat_lstatus_max.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.resultat_lstatus_max.ForeColor = System.Drawing.Color.DarkGreen;
             this.resultat_lstatus_max.Location = new System.Drawing.Point(524, 155);
             this.resultat_lstatus_max.Name = "resultat_lstatus_max";
             this.resultat_lstatus_max.Size = new System.Drawing.Size(264, 75);
@@ -368,7 +368,6 @@ namespace ResourceApp_GUI
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "window_title";
             this.Text = "Resource Overvågning";
-            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
