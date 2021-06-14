@@ -238,7 +238,7 @@ namespace ResourceApp_GUI
             this.resultat_lager_temp.Size = new System.Drawing.Size(132, 20);
             this.resultat_lager_temp.TabIndex = 17;
             this.resultat_lager_temp.Text = "--";
-            this.resultat_lager_temp.Click += new System.EventHandler(this.resultat_lager_temp_Click);
+            this.resultat_lager_temp.TextChanged += new System.EventHandler(this.resultat_lager_temp_TextChanged);
             // 
             // resultat_lager_fugt
             // 
@@ -248,7 +248,7 @@ namespace ResourceApp_GUI
             this.resultat_lager_fugt.Size = new System.Drawing.Size(132, 20);
             this.resultat_lager_fugt.TabIndex = 18;
             this.resultat_lager_fugt.Text = "--";
-            this.resultat_lager_fugt.Click += new System.EventHandler(this.resultat_lager_fugt_Click);
+            this.resultat_lager_fugt.TextChanged += new System.EventHandler(this.resultat_lager_fugt_TextChanged);
             // 
             // resultat_ude_temp
             // 
@@ -258,7 +258,7 @@ namespace ResourceApp_GUI
             this.resultat_ude_temp.Size = new System.Drawing.Size(132, 20);
             this.resultat_ude_temp.TabIndex = 19;
             this.resultat_ude_temp.Text = "--";
-            this.resultat_ude_temp.Click += new System.EventHandler(this.resultat_ude_temp_Click);
+            this.resultat_ude_temp.TextChanged += new System.EventHandler(this.resultat_ude_temp_TextChanged);
             // 
             // resultat_ude_fugt
             // 
@@ -268,7 +268,7 @@ namespace ResourceApp_GUI
             this.resultat_ude_fugt.Size = new System.Drawing.Size(132, 20);
             this.resultat_ude_fugt.TabIndex = 20;
             this.resultat_ude_fugt.Text = "--";
-            this.resultat_ude_fugt.Click += new System.EventHandler(this.resultat_ude_fugt_Click);
+            this.resultat_ude_fugt.TextAlignChanged += new System.EventHandler(this.resultat_ude_fugt_TextAlignChanged);
             // 
             // resultat_tid_kbh
             // 
@@ -278,7 +278,7 @@ namespace ResourceApp_GUI
             this.resultat_tid_kbh.Size = new System.Drawing.Size(195, 20);
             this.resultat_tid_kbh.TabIndex = 21;
             this.resultat_tid_kbh.Text = "--";
-            this.resultat_tid_kbh.Click += new System.EventHandler(this.resultat_tid_kbh_Click);
+            this.resultat_tid_kbh.TextChanged += new System.EventHandler(this.resultat_tid_kbh_TextChanged);
             // 
             // resultat_tid_ldn
             // 
@@ -288,7 +288,7 @@ namespace ResourceApp_GUI
             this.resultat_tid_ldn.Size = new System.Drawing.Size(195, 20);
             this.resultat_tid_ldn.TabIndex = 22;
             this.resultat_tid_ldn.Text = "--";
-            this.resultat_tid_ldn.Click += new System.EventHandler(this.resultat_tid_ldn_Click);
+            this.resultat_tid_ldn.TextChanged += new System.EventHandler(this.resultat_tid_ldn_TextChanged);
             // 
             // resultat_tid_sgp
             // 
@@ -298,7 +298,7 @@ namespace ResourceApp_GUI
             this.resultat_tid_sgp.Size = new System.Drawing.Size(195, 20);
             this.resultat_tid_sgp.TabIndex = 23;
             this.resultat_tid_sgp.Text = "--";
-            this.resultat_tid_sgp.Click += new System.EventHandler(this.resultat_tid_sgp_Click);
+            this.resultat_tid_sgp.TextChanged += new System.EventHandler(this.resultat_tid_sgp_TextChanged);
             // 
             // resultat_nyheder
             // 
@@ -308,7 +308,6 @@ namespace ResourceApp_GUI
             this.resultat_nyheder.Size = new System.Drawing.Size(780, 20);
             this.resultat_nyheder.TabIndex = 24;
             this.resultat_nyheder.Text = "--";
-            this.resultat_nyheder.Click += new System.EventHandler(this.resultat_nyheder_Click);
             // 
             // resultat_lstatus_min
             // 
@@ -319,7 +318,7 @@ namespace ResourceApp_GUI
             this.resultat_lstatus_min.Size = new System.Drawing.Size(264, 75);
             this.resultat_lstatus_min.TabIndex = 25;
             this.resultat_lstatus_min.Text = "--";
-            this.resultat_lstatus_min.Click += new System.EventHandler(this.resultat_lstatus_min_Click);
+            this.resultat_lstatus_min.TextChanged += new System.EventHandler(this.resultat_lstatus_min_TextChanged);
             // 
             // resultat_lstatus_max
             // 
@@ -330,7 +329,7 @@ namespace ResourceApp_GUI
             this.resultat_lstatus_max.Size = new System.Drawing.Size(264, 75);
             this.resultat_lstatus_max.TabIndex = 26;
             this.resultat_lstatus_max.Text = "--";
-            this.resultat_lstatus_max.Click += new System.EventHandler(this.resultat_lstatus_max_Click);
+            this.resultat_lstatus_max.TextChanged += new System.EventHandler(this.resultat_lstatus_max_TextChanged);
             // 
             // resultat_lstatus_solgt
             // 
@@ -340,7 +339,7 @@ namespace ResourceApp_GUI
             this.resultat_lstatus_solgt.Size = new System.Drawing.Size(264, 75);
             this.resultat_lstatus_solgt.TabIndex = 27;
             this.resultat_lstatus_solgt.Text = "--";
-            this.resultat_lstatus_solgt.Click += new System.EventHandler(this.resultat_lstatus_solgt_Click);
+            this.resultat_lstatus_solgt.TextChanged += new System.EventHandler(this.resultat_lstatus_solgt_TextChanged);
             // 
             // window_title
             // 
