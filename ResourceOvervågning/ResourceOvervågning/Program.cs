@@ -1,9 +1,11 @@
 ﻿using System;
 using System.Linq;
 using System.Text;
+using System.Xml;
 using ConsoleTables;
 using System.Threading.Tasks;
 using System.Collections.Generic;
+using System.ServiceModel.Syndication;
 
 /* Nødvendig package der installeres under "Tools > NuGet Package Manager > Package Manager Console"
    Under konsolen, skriv: "Install-Package ConsoleTables -Version 2.4.2" */
@@ -14,10 +16,13 @@ namespace ResourceOvervågning
     {
         static void Main(string[] args)
         {
+            Nyheder();
             while (true) // Uendeligt loop
             {
-                ResourceData(); // Print Resource Tabel.
+                break;
+                // ResourceData(); // Print Resource Tabel.
             }
+            Console.ReadKey();
         }
 
         static void ResourceData()
@@ -58,6 +63,36 @@ namespace ResourceOvervågning
             System.Threading.Thread.Sleep(sleeptime); // Vent 5 Minutter.
 
             return;
+        }
+
+        static void Nyheder()
+        {
+            string url = "https://nordjyske.dk/rss/nyheder";
+            string titel = "";
+            string beskrivelse = "";
+
+            try // Prøver at køre følgende kode, hvis der opstår en fejl, fx ingen data (mangel på internet) springer den videre til "catch".
+            {
+                XmlReader reader = XmlReader.Create(url); // Reader objekt til at indlæse URL.
+                SyndicationFeed feed = SyndicationFeed.Load(reader); // Parser reader object til et håndtereligt object.
+
+                foreach (SyndicationItem elm in feed.Items) // Looper igennem hver artikel.
+                {
+                    titel += elm.Title.Text.Trim(); // Tillægger titel fra artikel til titel variabel, samt fjerner overflødige whitespaces.
+                    beskrivelse += elm.Summary.Text.Trim();
+                }
+            } catch // Bliver kørt hvis try statementen fejler.
+            {
+                titel = "Data ikke tilgængelig, tjek internet-forbindelse..";
+                beskrivelse = titel;
+            } finally // Når enten try eller catch sektionen er kørt, vil denne sektion køre (Den vil altid køre)
+            {
+                string rodet_nyhed = $"[{titel}] >>  {beskrivelse}";
+                string nyhed = rodet_nyhed.Replace("\n", ""); // Fjerner newlines fra tekst
+                Console.WriteLine(nyhed);
+            }
+            string[] nyheder = { titel, beskrivelse };
+
         }
     }
 }
