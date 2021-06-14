@@ -70,6 +70,7 @@ namespace ResourceOvervågning
             string url = "https://nordjyske.dk/rss/nyheder";
             string titel = "";
             string beskrivelse = "";
+            string nyhed = "";
 
             try // Prøver at køre følgende kode, hvis der opstår en fejl, fx ingen data (mangel på internet) springer den videre til "catch".
             {
@@ -87,12 +88,14 @@ namespace ResourceOvervågning
                 beskrivelse = titel;
             } finally // Når enten try eller catch sektionen er kørt, vil denne sektion køre (Den vil altid køre)
             {
-                string rodet_nyhed = $"[{titel}] >>  {beskrivelse}";
-                string nyhed = rodet_nyhed.Replace("\n", ""); // Fjerner newlines fra tekst
-                Console.WriteLine(nyhed);
+                nyhed += $"{titel} {beskrivelse}".Replace("\n", ""); // Fjerner newlines fra tekst
             }
-            string[] nyheder = { titel, beskrivelse };
-
+            
+            char[] temp_nyhed = nyhed.ToCharArray(); // Convertere string til character array
+            foreach(char cha in temp_nyhed)
+            {
+                Console.Write($"{cha}");
+            }
         }
     }
 }
