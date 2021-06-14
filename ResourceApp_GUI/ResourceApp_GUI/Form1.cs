@@ -117,9 +117,20 @@ namespace ResourceApp_GUI
                 resultat_tid_sgp.Text = ingen_data;
             }
         }
-
         private void resultat_tid_kbh_TextChanged(object sender, EventArgs e){}
         private void resultat_tid_ldn_TextChanged(object sender, EventArgs e){}
         private void resultat_tid_sgp_TextChanged(object sender, EventArgs e){}
+
+        private void timer_konstant_Tick(object sender, EventArgs e)
+        {
+            resultat_tid_kbh.Text = DateTime.Now.ToString("HH:mm:ss");
+            resultat_tid_ldn.Text = DateTime.Now.AddHours(-1).ToString("HH:mm:ss");
+            resultat_tid_sgp.Text = DateTime.Now.AddHours(2).ToString("HH:mm:ss");
+        }
+
+        private void timer_resourcer_Tick(object sender, EventArgs e)
+        {
+
+        }
     }
 }

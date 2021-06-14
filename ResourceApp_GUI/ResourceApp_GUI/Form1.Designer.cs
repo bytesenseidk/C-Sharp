@@ -29,6 +29,7 @@ namespace ResourceApp_GUI
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(window_title));
             this.splitline_nyheder = new System.Windows.Forms.Label();
             this.splitline_center = new System.Windows.Forms.Label();
@@ -58,6 +59,8 @@ namespace ResourceApp_GUI
             this.resultat_lstatus_min = new System.Windows.Forms.Label();
             this.resultat_lstatus_max = new System.Windows.Forms.Label();
             this.resultat_lstatus_solgt = new System.Windows.Forms.Label();
+            this.timer_tid = new System.Windows.Forms.Timer(this.components);
+            this.timer_resourcer = new System.Windows.Forms.Timer(this.components);
             this.SuspendLayout();
             // 
             // splitline_nyheder
@@ -341,6 +344,18 @@ namespace ResourceApp_GUI
             this.resultat_lstatus_solgt.Text = "--";
             this.resultat_lstatus_solgt.TextChanged += new System.EventHandler(this.resultat_lstatus_solgt_TextChanged);
             // 
+            // timer_tid
+            // 
+            this.timer_tid.Enabled = true;
+            this.timer_tid.Interval = 1000;
+            this.timer_tid.Tick += new System.EventHandler(this.timer_konstant_Tick);
+            // 
+            // timer_resourcer
+            // 
+            this.timer_resourcer.Enabled = true;
+            this.timer_resourcer.Interval = 300000;
+            this.timer_resourcer.Tick += new System.EventHandler(this.timer_resourcer_Tick);
+            // 
             // window_title
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -413,6 +428,8 @@ namespace ResourceApp_GUI
         private System.Windows.Forms.Label resultat_lstatus_min;
         private System.Windows.Forms.Label resultat_lstatus_max;
         private System.Windows.Forms.Label resultat_lstatus_solgt;
+        private System.Windows.Forms.Timer timer_tid;
+        private System.Windows.Forms.Timer timer_resourcer;
     }
 }
 
