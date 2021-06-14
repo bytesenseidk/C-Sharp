@@ -16,5 +16,60 @@ namespace ResourceApp_GUI
         {
             InitializeComponent();
         }
+
+        private void resultat_lager_temp_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void resultat_lager_fugt_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void resultat_ude_temp_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void resultat_ude_fugt_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void resultat_tid_kbh_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void resultat_tid_ldn_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void resultat_tid_sgp_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void resultat_lstatus_min_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void resultat_lstatus_max_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void resultat_lstatus_solgt_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void resultat_nyheder_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
