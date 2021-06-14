@@ -92,6 +92,8 @@ namespace ResourceOvervågning
             }
             
             char[] temp_nyhed = nyhed.ToCharArray(); // Convertere string til character array
+            int terminal_start = 0;
+            int terminal_slut = Console.WindowWidth;
             foreach(char cha in temp_nyhed)
             {
                 Console.Write($"{cha}");
