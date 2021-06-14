@@ -17,7 +17,7 @@ namespace ResourceApp_GUI
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new window_title());
-            Console.WriteLine("hello");
+            
         }
     }
 }
