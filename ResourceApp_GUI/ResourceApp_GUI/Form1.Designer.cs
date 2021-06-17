@@ -318,7 +318,7 @@ namespace ResourceApp_GUI
             this.resultat_lstatus_min.ForeColor = System.Drawing.Color.Maroon;
             this.resultat_lstatus_min.Location = new System.Drawing.Point(524, 64);
             this.resultat_lstatus_min.Name = "resultat_lstatus_min";
-            this.resultat_lstatus_min.Size = new System.Drawing.Size(264, 75);
+            this.resultat_lstatus_min.Size = new System.Drawing.Size(334, 75);
             this.resultat_lstatus_min.TabIndex = 25;
             this.resultat_lstatus_min.Text = "--";
             this.resultat_lstatus_min.TextChanged += new System.EventHandler(this.resultat_lstatus_min_TextChanged);
@@ -329,7 +329,7 @@ namespace ResourceApp_GUI
             this.resultat_lstatus_max.ForeColor = System.Drawing.Color.DarkGreen;
             this.resultat_lstatus_max.Location = new System.Drawing.Point(524, 155);
             this.resultat_lstatus_max.Name = "resultat_lstatus_max";
-            this.resultat_lstatus_max.Size = new System.Drawing.Size(264, 75);
+            this.resultat_lstatus_max.Size = new System.Drawing.Size(334, 75);
             this.resultat_lstatus_max.TabIndex = 26;
             this.resultat_lstatus_max.Text = "--";
             this.resultat_lstatus_max.TextChanged += new System.EventHandler(this.resultat_lstatus_max_TextChanged);
@@ -339,7 +339,7 @@ namespace ResourceApp_GUI
             this.resultat_lstatus_solgt.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.resultat_lstatus_solgt.Location = new System.Drawing.Point(524, 238);
             this.resultat_lstatus_solgt.Name = "resultat_lstatus_solgt";
-            this.resultat_lstatus_solgt.Size = new System.Drawing.Size(264, 75);
+            this.resultat_lstatus_solgt.Size = new System.Drawing.Size(334, 75);
             this.resultat_lstatus_solgt.TabIndex = 27;
             this.resultat_lstatus_solgt.Text = "--";
             this.resultat_lstatus_solgt.TextChanged += new System.EventHandler(this.resultat_lstatus_solgt_TextChanged);
@@ -361,7 +361,7 @@ namespace ResourceApp_GUI
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveBorder;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(870, 353);
             this.Controls.Add(this.resultat_lstatus_solgt);
             this.Controls.Add(this.resultat_lstatus_max);
             this.Controls.Add(this.resultat_lstatus_min);
