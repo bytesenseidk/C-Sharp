@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Drawing;
 using System.Windows.Forms;
-using System.Collections.Generic;
 
 
 namespace ResourceApp_GUI
@@ -90,18 +89,15 @@ namespace ResourceApp_GUI
                 // Lager
                 /* En List fungere som en dynamisk array. 
                  * Dette vil sige vi kan tilføje værdier efter listen er oprettet */
-                List<string> temp_min = new List<string>();
                 string over_max = "";
                 string mest_solgt = "";
+                string under_min = "";
 
                 /* For hvert lager element hentet ned fra DVIMonitor.monitorSoapClient
                  * tillægges værdierne til de respektive variabler */
-                foreach (string element in ds.StockItemsUnderMin()) { temp_min.Add(element); }
+                foreach (string element in ds.StockItemsUnderMin()) { under_min += $"{element.Trim()}\n"; }
                 foreach (string element in ds.StockItemsOverMax()) { over_max += $"{element.Trim()}\n"; }
                 foreach (string element in ds.StockItemsMostSold()) { mest_solgt += $"{element.Trim()}\n"; }
-
-                // Konvertere vores liste til en string array for at tilgå værdierne via. index
-                string[] under_min = temp_min.ToArray();
 
                 // Ændre farverne på lager indholdet
                 resultat_lstatus_min.ForeColor = Color.Red;
@@ -109,7 +105,7 @@ namespace ResourceApp_GUI
                 resultat_lstatus_solgt.ForeColor = Color.Green;
 
                 // Tillægger applikations labels med de respektive værdier
-                resultat_lstatus_min.Text = $"{under_min[0]}\n{under_min[1]}";
+                resultat_lstatus_min.Text = under_min;
                 resultat_lstatus_max.Text = over_max;
                 resultat_lstatus_solgt.Text = mest_solgt;
             }

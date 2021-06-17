@@ -390,6 +390,7 @@ namespace ResourceApp_GUI
             this.Controls.Add(this.splitline_tidszone);
             this.Controls.Add(this.splitline_center);
             this.Controls.Add(this.splitline_nyheder);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "window_title";
             this.Text = "Resource Overvågning";
