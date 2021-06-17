@@ -139,7 +139,7 @@ namespace ResourceApp_GUI
             }
             catch
             {
-
+                fejl_initiator();
             }
         }
 
