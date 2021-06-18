@@ -87,8 +87,6 @@ namespace ResourceApp_GUI
                 resultat_ude_fugt.Text = $"{ude_fugt}%";
 
                 // Lager
-                /* En List fungere som en dynamisk array. 
-                 * Dette vil sige vi kan tilføje værdier efter listen er oprettet */
                 string over_max = "";
                 string mest_solgt = "";
                 string under_min = "";
