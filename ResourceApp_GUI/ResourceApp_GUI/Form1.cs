@@ -44,6 +44,13 @@ namespace ResourceApp_GUI
             resultat_tid_kbh.Text = ingen_data;
             resultat_tid_ldn.Text = ingen_data;
             resultat_tid_sgp.Text = ingen_data;
+            // Farve indikation
+            resultat_lager_temp.ForeColor = Color.Red;
+            resultat_lager_fugt.ForeColor = Color.Red;
+            resultat_ude_temp.ForeColor = Color.Red;
+            resultat_ude_fugt.ForeColor = Color.Red;
+            resultat_lstatus_solgt.ForeColor = Color.Red;
+
         }
         void resource_setup()
         {
