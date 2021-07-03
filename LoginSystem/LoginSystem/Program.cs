@@ -43,10 +43,11 @@ namespace LoginSystem
                     {
                         if (userIns.Contains(username))
                         {
-                            userFile.Close();
+                            //userFile.Close();
                             return false;
                         }
                     }
+                    //userFile.Close();
                 }
             }
             return true;
@@ -73,7 +74,7 @@ namespace LoginSystem
                 string user = $"{username}; {password}";
                 userFile.WriteLine(user);
                 Console.WriteLine(user);
-                userFile.Close();
+                //userFile.Close();
             }
         }        
     } 

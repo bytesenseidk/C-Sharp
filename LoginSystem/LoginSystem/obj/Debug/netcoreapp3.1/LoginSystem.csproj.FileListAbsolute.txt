@@ -10,3 +10,4 @@ C:\Users\Anonymous\Documents\GitHub\C_Sharp-Projects\LoginSystem\LoginSystem\obj
 C:\Users\Anonymous\Documents\GitHub\C_Sharp-Projects\LoginSystem\LoginSystem\obj\Debug\netcoreapp3.1\LoginSystem.dll
 C:\Users\Anonymous\Documents\GitHub\C_Sharp-Projects\LoginSystem\LoginSystem\obj\Debug\netcoreapp3.1\LoginSystem.pdb
 C:\Users\Anonymous\Documents\GitHub\C_Sharp-Projects\LoginSystem\LoginSystem\obj\Debug\netcoreapp3.1\LoginSystem.genruntimeconfig.cache
+C:\Users\Anonymous\Documents\GitHub\C_Sharp-Projects\LoginSystem\LoginSystem\obj\Debug\netcoreapp3.1\LoginSystem.csproj.AssemblyReference.cache
