@@ -11,6 +11,21 @@ namespace User_System
         public string password;
         public string filePath = Environment.CurrentDirectory.Replace(@"\bin\Debug\netcoreapp3.1", @"\Users.txt");
 
+        public void AddUser()
+        {
+            bool username = UsernameValidation();
+            bool password = PasswordValidation();
+            if (username && password)
+            {
+                Console.WriteLine("Sign Up Successful!");
+                FileAppender();
+            }
+            else
+            {
+                Console.WriteLine("Sign Up Unsuccessful!");
+            }
+        }
+
         public bool UsernameValidation()
         {
             Regex invalids = new Regex(@"^[0-9]"); // Regular expression for numbers
@@ -57,40 +72,21 @@ namespace User_System
             }
             return true;
         }
-        public bool UserValidation()
-        {
-            bool username = UsernameValidation();
-            bool password = PasswordValidation();
-            return username && password;
-        }
 
-        public void AddUser()
+        public void FileAppender()
         {
             try
             {
                 using (StreamWriter userFile = File.AppendText(filePath))
                 {
-                    userFile.WriteLine($"{username}; {password}");
+                    string user = $"{username}; {password}";
+                    userFile.WriteLine(user);
                     userFile.Close();
                 } 
             }
             catch
             {
                 Console.WriteLine($"\n\nNo Users file present at this location:\n{filePath}");
-            }
-        }
-
-        public void Runner()
-        {
-            bool validated = UserValidation();
-            if (validated == true)
-            {
-                Console.WriteLine("User validated!");
-                AddUser();
-            }
-            else
-            {
-                Console.WriteLine("User not validated!");
             }
         }
     }
@@ -102,7 +98,7 @@ namespace User_System
             Signup signup = new Signup();
             signup.username = "Lars";
             signup.password = "Larssdfsdfsdf";
-            signup.Runner();
+            signup.AddUser();
         }
     }
 }
