@@ -21,17 +21,24 @@ namespace User_System
             }
             else
             {
-                using (StreamReader userFile = new StreamReader(filePath))
+                try
                 {
-                    string[] users = userFile.ReadToEnd().Split('\n');
-                    foreach (string userIns in users)
+                    using (StreamReader userFile = new StreamReader(filePath))
                     {
-                        if (userIns.Contains(username))
+                        string[] users = userFile.ReadToEnd().Split('\n');
+                        foreach (string userIns in users)
                         {
-                            userFile.Close();
-                            return false;
+                            if (userIns.Contains(username))
+                            {
+                                userFile.Close();
+                                return false;
+                            }
                         }
                     }
+                }
+                catch
+                {
+                    Console.WriteLine($"\n\nNo Users file present at this location:\n{filePath}");
                 }
             }
             return true;
@@ -43,6 +50,11 @@ namespace User_System
                 Console.WriteLine("\n\nPassword length should be over 8 characters long...\n");
                 return false;
             }
+            else if (password == username)
+            {
+                Console.WriteLine("\n\nPassword and username should not be the same...\n");
+                return false;
+            }
             return true;
         }
         public bool UserValidation()
@@ -50,6 +62,36 @@ namespace User_System
             bool username = UsernameValidation();
             bool password = PasswordValidation();
             return username && password;
+        }
+
+        public void AddUser()
+        {
+            try
+            {
+                using (StreamWriter userFile = File.AppendText(filePath))
+                {
+                    userFile.WriteLine($"{username}; {password}");
+                    userFile.Close();
+                } 
+            }
+            catch
+            {
+                Console.WriteLine($"\n\nNo Users file present at this location:\n{filePath}");
+            }
+        }
+
+        public void Runner()
+        {
+            bool validated = UserValidation();
+            if (validated == true)
+            {
+                Console.WriteLine("User validated!");
+                AddUser();
+            }
+            else
+            {
+                Console.WriteLine("User not validated!");
+            }
         }
     }
 
@@ -60,10 +102,14 @@ namespace User_System
             Signup signup = new Signup();
             signup.username = "Lars";
             signup.password = "Larssdfsdfsdf";
-            Console.WriteLine(signup.UserValidation());
+            signup.Runner();
         }
     }
 }
+
+
+
+
 
 
  /*           
