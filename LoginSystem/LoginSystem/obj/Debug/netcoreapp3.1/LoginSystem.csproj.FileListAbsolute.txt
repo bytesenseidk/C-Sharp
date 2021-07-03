@@ -1,0 +1,12 @@
+C:\Users\Anonymous\Documents\GitHub\C_Sharp-Projects\LoginSystem\LoginSystem\bin\Debug\netcoreapp3.1\LoginSystem.exe
+C:\Users\Anonymous\Documents\GitHub\C_Sharp-Projects\LoginSystem\LoginSystem\bin\Debug\netcoreapp3.1\LoginSystem.deps.json
+C:\Users\Anonymous\Documents\GitHub\C_Sharp-Projects\LoginSystem\LoginSystem\bin\Debug\netcoreapp3.1\LoginSystem.runtimeconfig.json
+C:\Users\Anonymous\Documents\GitHub\C_Sharp-Projects\LoginSystem\LoginSystem\bin\Debug\netcoreapp3.1\LoginSystem.runtimeconfig.dev.json
+C:\Users\Anonymous\Documents\GitHub\C_Sharp-Projects\LoginSystem\LoginSystem\bin\Debug\netcoreapp3.1\LoginSystem.dll
+C:\Users\Anonymous\Documents\GitHub\C_Sharp-Projects\LoginSystem\LoginSystem\bin\Debug\netcoreapp3.1\LoginSystem.pdb
+C:\Users\Anonymous\Documents\GitHub\C_Sharp-Projects\LoginSystem\LoginSystem\obj\Debug\netcoreapp3.1\LoginSystem.AssemblyInfoInputs.cache
+C:\Users\Anonymous\Documents\GitHub\C_Sharp-Projects\LoginSystem\LoginSystem\obj\Debug\netcoreapp3.1\LoginSystem.AssemblyInfo.cs
+C:\Users\Anonymous\Documents\GitHub\C_Sharp-Projects\LoginSystem\LoginSystem\obj\Debug\netcoreapp3.1\LoginSystem.csproj.CoreCompileInputs.cache
+C:\Users\Anonymous\Documents\GitHub\C_Sharp-Projects\LoginSystem\LoginSystem\obj\Debug\netcoreapp3.1\LoginSystem.dll
+C:\Users\Anonymous\Documents\GitHub\C_Sharp-Projects\LoginSystem\LoginSystem\obj\Debug\netcoreapp3.1\LoginSystem.pdb
+C:\Users\Anonymous\Documents\GitHub\C_Sharp-Projects\LoginSystem\LoginSystem\obj\Debug\netcoreapp3.1\LoginSystem.genruntimeconfig.cache

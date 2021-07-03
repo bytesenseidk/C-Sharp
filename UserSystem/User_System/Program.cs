@@ -15,9 +15,9 @@ namespace User_System
         {
             bool username = UsernameValidation();
             bool password = PasswordValidation();
+            
             if (username && password)
             {
-                Console.WriteLine("Sign Up Successful!");
                 FileAppender();
             }
             else
@@ -81,6 +81,7 @@ namespace User_System
                 {
                     string user = $"{username}; {password}";
                     userFile.WriteLine(user);
+                    Console.WriteLine(user);
                     userFile.Close();
                 } 
             }
