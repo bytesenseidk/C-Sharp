@@ -43,11 +43,11 @@ namespace UserApplication
                     {
                         if (userIns.Contains(username))
                         {
-                            //userFile.Close();
+                            userFile.Close();
                             return false;
                         }
                     }
-                    //userFile.Close();
+                    userFile.Close();
                 }
             }
             return true;
@@ -69,13 +69,17 @@ namespace UserApplication
 
         public void FileAppender()
         {
+            StreamWriter write = File.AppendText(filePath);
+            write.WriteLine($"{username}; {password}");
+            write.Close();
+            /*
             using (StreamWriter userFile = File.AppendText(filePath))
             {
-                string user = $"{username}; {password}";
+                string user = 
                 userFile.WriteLine(user);
                 Console.WriteLine(user);
-                //userFile.Close();
-            }
+                userFile.Close();
+            }*/
         }
     }
 
@@ -87,7 +91,7 @@ namespace UserApplication
             Signup signup = new Signup();
             signup.username = "Lars";
             signup.password = "Larssdfsdfsdf";
-            signup.AddUser();
+            signup.FileAppender();
         }
     }
 }
