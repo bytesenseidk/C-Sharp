@@ -1,7 +1,5 @@
 ﻿using System;
-using System.IO;
-using System.Linq;
-using System.Text.RegularExpressions;
+
 
 namespace UserApplication
 {
@@ -10,12 +8,8 @@ namespace UserApplication
         static void Main(string[] args)
         {
 
-            // Validator validate = new Validator();
+            Validator validate = new Validator();
             SignUp signUp = new SignUp();
-            signUp.username = "Bruger 1";
-            signUp.password = "password";
-            signUp.AddUser();
-            /*
             validate.username = "hello";
             validate.password = "helloajlsd";
             signUp.username = "hello";
@@ -23,12 +17,12 @@ namespace UserApplication
             bool validated = validate.Validate();
             if (validated)
             {
-                signUp.AddUser();
+                Console.WriteLine(signUp.filePath); 
             }
             else
             {
                 Console.WriteLine("Not validated");
-            } */
+            }
         }
     }
 }

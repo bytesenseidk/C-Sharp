@@ -12,16 +12,11 @@ namespace UserApplication
 
         public void AddUser()
         {
-            /*
             using (StreamWriter userFile = File.AppendText(filePath))
             {
                 userFile.WriteLine($"{username}; {password}");
-                Console.WriteLine($"{username}; {password}");
                 userFile.Close();
             }
-            Console.WriteLine("\n\nAccount added!");
-            */
-            Console.WriteLine($"{username}; {password}");
         }
     }
 }
