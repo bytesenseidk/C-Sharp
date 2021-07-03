@@ -5,93 +5,30 @@ using System.Text.RegularExpressions;
 
 namespace UserApplication
 {
-    public class Signup
-    {
-        public string username;
-        public string password;
-        public string filePath = Environment.CurrentDirectory.Replace(@"\bin\Debug\netcoreapp3.1", @"\Users.txt");
-
-        public void AddUser()
-        {
-            bool username = UsernameValidation();
-            bool password = PasswordValidation();
-
-            if (username && password)
-            {
-                FileAppender();
-            }
-            else
-            {
-                Console.WriteLine("Sign Up Unsuccessful!");
-            }
-        }
-
-        public bool UsernameValidation()
-        {
-            Regex invalids = new Regex(@"^[0-9]"); // Regular expression for numbers
-            MatchCollection matchDetections = invalids.Matches(username); // Checks for leading digits in the username
-            if (matchDetections.Count != 0)
-            {
-                return false;
-            }
-            else
-            {
-                using (StreamReader userFile = new StreamReader(filePath))
-                {
-                    string[] users = userFile.ReadToEnd().Split('\n');
-                    foreach (string userIns in users)
-                    {
-                        if (userIns.Contains(username))
-                        {
-                            userFile.Close();
-                            return false;
-                        }
-                    }
-                    userFile.Close();
-                }
-            }
-            return true;
-        }
-        public bool PasswordValidation()
-        {
-            if (password.Length < 8)
-            {
-                Console.WriteLine("\n\nPassword length should be over 8 characters long...\n");
-                return false;
-            }
-            else if (password == username)
-            {
-                Console.WriteLine("\n\nPassword and username should not be the same...\n");
-                return false;
-            }
-            return true;
-        }
-
-        public void FileAppender()
-        {
-            StreamWriter write = File.AppendText(filePath);
-            write.WriteLine($"{username}; {password}");
-            write.Close();
-            /*
-            using (StreamWriter userFile = File.AppendText(filePath))
-            {
-                string user = 
-                userFile.WriteLine(user);
-                Console.WriteLine(user);
-                userFile.Close();
-            }*/
-        }
-    }
-
-
     class Program
     {
         static void Main(string[] args)
         {
-            Signup signup = new Signup();
-            signup.username = "Lars";
-            signup.password = "Larssdfsdfsdf";
-            signup.FileAppender();
+
+            // Validator validate = new Validator();
+            SignUp signUp = new SignUp();
+            signUp.username = "Bruger 1";
+            signUp.password = "password";
+            signUp.AddUser();
+            /*
+            validate.username = "hello";
+            validate.password = "helloajlsd";
+            signUp.username = "hello";
+            signUp.password = "helloajlsd";
+            bool validated = validate.Validate();
+            if (validated)
+            {
+                signUp.AddUser();
+            }
+            else
+            {
+                Console.WriteLine("Not validated");
+            } */
         }
     }
 }
