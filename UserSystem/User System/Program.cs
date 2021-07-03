@@ -84,8 +84,13 @@ namespace User_System
                                         user = $"{username};";
                                     }
                                 }
+                                userFile.Close();
                             }
                         }
+                    }
+                    catch
+                    {
+
                     }
 
                 }
