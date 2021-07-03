@@ -1,0 +1,13 @@
+C:\Users\Anonymous\Documents\GitHub\C_Sharp-Projects\UserSystem\User System\bin\Debug\netcoreapp3.1\UserSystem.exe
+C:\Users\Anonymous\Documents\GitHub\C_Sharp-Projects\UserSystem\User System\bin\Debug\netcoreapp3.1\UserSystem.deps.json
+C:\Users\Anonymous\Documents\GitHub\C_Sharp-Projects\UserSystem\User System\bin\Debug\netcoreapp3.1\UserSystem.runtimeconfig.json
+C:\Users\Anonymous\Documents\GitHub\C_Sharp-Projects\UserSystem\User System\bin\Debug\netcoreapp3.1\UserSystem.runtimeconfig.dev.json
+C:\Users\Anonymous\Documents\GitHub\C_Sharp-Projects\UserSystem\User System\bin\Debug\netcoreapp3.1\UserSystem.dll
+C:\Users\Anonymous\Documents\GitHub\C_Sharp-Projects\UserSystem\User System\bin\Debug\netcoreapp3.1\UserSystem.pdb
+C:\Users\Anonymous\Documents\GitHub\C_Sharp-Projects\UserSystem\User System\obj\Debug\netcoreapp3.1\UserSystem.csproj.AssemblyReference.cache
+C:\Users\Anonymous\Documents\GitHub\C_Sharp-Projects\UserSystem\User System\obj\Debug\netcoreapp3.1\UserSystem.AssemblyInfoInputs.cache
+C:\Users\Anonymous\Documents\GitHub\C_Sharp-Projects\UserSystem\User System\obj\Debug\netcoreapp3.1\UserSystem.AssemblyInfo.cs
+C:\Users\Anonymous\Documents\GitHub\C_Sharp-Projects\UserSystem\User System\obj\Debug\netcoreapp3.1\UserSystem.csproj.CoreCompileInputs.cache
+C:\Users\Anonymous\Documents\GitHub\C_Sharp-Projects\UserSystem\User System\obj\Debug\netcoreapp3.1\UserSystem.dll
+C:\Users\Anonymous\Documents\GitHub\C_Sharp-Projects\UserSystem\User System\obj\Debug\netcoreapp3.1\UserSystem.pdb
+C:\Users\Anonymous\Documents\GitHub\C_Sharp-Projects\UserSystem\User System\obj\Debug\netcoreapp3.1\UserSystem.genruntimeconfig.cache

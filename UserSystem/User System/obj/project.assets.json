@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Anonymous\\Documents\\GitHub\\C_Sharp-Projects\\UserSystem\\User System\\User System.csproj",
-      "projectName": "User System",
-      "projectPath": "C:\\Users\\Anonymous\\Documents\\GitHub\\C_Sharp-Projects\\UserSystem\\User System\\User System.csproj",
+      "projectUniqueName": "C:\\Users\\Anonymous\\Documents\\GitHub\\C_Sharp-Projects\\UserSystem\\User System\\UserSystem.csproj",
+      "projectName": "UserSystem",
+      "projectPath": "C:\\Users\\Anonymous\\Documents\\GitHub\\C_Sharp-Projects\\UserSystem\\User System\\UserSystem.csproj",
       "packagesPath": "C:\\Users\\Anonymous\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Anonymous\\Documents\\GitHub\\C_Sharp-Projects\\UserSystem\\User System\\obj\\",
       "projectStyle": "PackageReference",
