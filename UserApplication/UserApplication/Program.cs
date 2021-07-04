@@ -17,7 +17,7 @@ namespace UserApplication
             bool validated = validate.Validate();
             if (validated)
             {
-                Console.WriteLine(signUp.filePath); 
+                signUp.AddUser();
             }
             else
             {
