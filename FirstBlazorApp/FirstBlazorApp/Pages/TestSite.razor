@@ -1,6 +1,11 @@
 ﻿@page "/test"
 
-<h1>Welcome Page!</h1>
+<h1>Razor Progressive Web Application</h1><br />
+<p>
+    1. This is a program that runs inside your browser <br />
+    2. It uses your computer hardware as power, not the internet <br />
+    3. It works offline, and on every device with a browser installed <br />
+</p>
 
 <p>Please enter your name: 
     <input @bind="InstantValue" @bind:event="oninput" />
@@ -12,7 +17,6 @@
 </p>
 
 <button class="btn btn-primary" @onclick="SubmitText">Click Me!</button>
-
 
 
 @code {

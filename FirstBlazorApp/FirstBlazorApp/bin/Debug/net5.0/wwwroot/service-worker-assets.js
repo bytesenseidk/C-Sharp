@@ -1,7 +1,7 @@
 ﻿self.assetsManifest = {
   "assets": [
     {
-      "hash": "sha256-u7xL\/dTIjih2wrYMszbZOVg8XAEf\/LalGArIsLQ5b7s=",
+      "hash": "sha256-3NVHYCyJNVs1WhL1RyeyGxQLSzPhsMDr+2mrG\/ZqRF8=",
       "url": "_framework\/blazor.boot.json"
     },
     {
@@ -785,11 +785,11 @@
       "url": "_framework\/dotnet.5.0.7.js"
     },
     {
-      "hash": "sha256-b4YhtqEzMBwM+kBJFuf5rrjH0MYJYhTFE5yE5RXSL5Y=",
+      "hash": "sha256-6r\/ZpdWxs2VU8RtLA6OreaTsFKAOhqfbYbXqVKwoals=",
       "url": "_framework\/FirstBlazorApp.dll"
     },
     {
-      "hash": "sha256-9qfCk\/SlhasCxtnwti\/DcwLtPS9pox0UXU2SJcq61Eg=",
+      "hash": "sha256-UrFcClWi7CP24GGfuI3EgO21nLPLT7Geu2AkqcPoAVA=",
       "url": "_framework\/FirstBlazorApp.pdb"
     },
     {
@@ -1653,5 +1653,5 @@
       "url": "FirstBlazorApp.bundle.scp.css"
     }
   ],
-  "version": "9\/cnCYkX"
+  "version": "0HN4tovf"
 };

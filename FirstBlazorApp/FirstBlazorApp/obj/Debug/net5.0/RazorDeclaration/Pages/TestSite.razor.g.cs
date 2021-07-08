@@ -91,14 +91,14 @@ using FirstBlazorApp.Shared;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 18 "C:\Users\Anonymous\Documents\Programming\GitHub\C-Charp\FirstBlazorApp\FirstBlazorApp\Pages\TestSite.razor"
+#line 22 "C:\Users\Anonymous\Documents\Programming\GitHub\C-Charp\FirstBlazorApp\FirstBlazorApp\Pages\TestSite.razor"
        
     private string InstantValue { get; set; }
     private string EnteredVal = "";
 
     private void SubmitText()
     {
-        EnteredVal = $"Well hello there {InstantValue}!";
+        EnteredVal = $"Well hello there {InstantValue} !";
     }
 
 #line default
