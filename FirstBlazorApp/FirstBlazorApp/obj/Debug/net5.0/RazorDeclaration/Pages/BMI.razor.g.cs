@@ -4,7 +4,7 @@
 #pragma warning disable 0649
 #pragma warning disable 0169
 
-namespace FirstBlazorApp.Shared
+namespace FirstBlazorApp.Pages
 {
     #line hidden
     using System;
@@ -82,7 +82,8 @@ using FirstBlazorApp.Shared;
 #line default
 #line hidden
 #nullable disable
-    public partial class NavMenu : Microsoft.AspNetCore.Components.ComponentBase
+    [Microsoft.AspNetCore.Components.RouteAttribute("/bmi")]
+    public partial class BMI : Microsoft.AspNetCore.Components.ComponentBase
     {
         #pragma warning disable 1998
         protected override void BuildRenderTree(Microsoft.AspNetCore.Components.Rendering.RenderTreeBuilder __builder)
@@ -90,16 +91,17 @@ using FirstBlazorApp.Shared;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 38 "C:\Users\Anonymous\Documents\Programming\GitHub\C-Charp\FirstBlazorApp\FirstBlazorApp\Shared\NavMenu.razor"
+#line 22 "C:\Users\Anonymous\Documents\Programming\GitHub\C-Charp\FirstBlazorApp\FirstBlazorApp\Pages\BMI.razor"
        
-    private bool collapseNavMenu = true;
+    private int height { get; set; }
+    private int weight { get; set; }
+    private double bmi;
 
-    private string NavMenuCssClass => collapseNavMenu ? "collapse" : null;
-
-    private void ToggleNavMenu()
+    private void Calculate()
     {
-        collapseNavMenu = !collapseNavMenu;
+        bmi = Math.Round((weight / Math.Pow(height, 2)) * 10000, 2);
     }
+
 
 #line default
 #line hidden
