@@ -1,0 +1,26 @@
+﻿@page "/test"
+
+<h1>Welcome Page!</h1>
+
+<p>Please enter your name: 
+    <input @bind="InstantValue" @bind:event="oninput" />
+</p>
+
+<p>
+    Instant: @InstantValue <br/>
+    Greeting: @EnteredVal <br/>
+</p>
+
+<button class="btn btn-primary" @onclick="SubmitText">Click Me!</button>
+
+
+
+@code {
+    private string InstantValue { get; set; }
+    private string EnteredVal = "";
+
+    private void SubmitText()
+    {
+        EnteredVal = $"Well hello there {InstantValue} !";
+    }
+}

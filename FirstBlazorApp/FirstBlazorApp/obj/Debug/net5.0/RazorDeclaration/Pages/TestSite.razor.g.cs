@@ -4,7 +4,7 @@
 #pragma warning disable 0649
 #pragma warning disable 0169
 
-namespace FirstBlazorApp.Shared
+namespace FirstBlazorApp.Pages
 {
     #line hidden
     using System;
@@ -82,7 +82,8 @@ using FirstBlazorApp.Shared;
 #line default
 #line hidden
 #nullable disable
-    public partial class NavMenu : Microsoft.AspNetCore.Components.ComponentBase
+    [Microsoft.AspNetCore.Components.RouteAttribute("/test")]
+    public partial class TestSite : Microsoft.AspNetCore.Components.ComponentBase
     {
         #pragma warning disable 1998
         protected override void BuildRenderTree(Microsoft.AspNetCore.Components.Rendering.RenderTreeBuilder __builder)
@@ -90,15 +91,14 @@ using FirstBlazorApp.Shared;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 33 "C:\Users\Anonymous\Documents\Programming\GitHub\C-Charp\FirstBlazorApp\FirstBlazorApp\Shared\NavMenu.razor"
+#line 18 "C:\Users\Anonymous\Documents\Programming\GitHub\C-Charp\FirstBlazorApp\FirstBlazorApp\Pages\TestSite.razor"
        
-    private bool collapseNavMenu = true;
+    private string InstantValue { get; set; }
+    private string EnteredVal = "";
 
-    private string NavMenuCssClass => collapseNavMenu ? "collapse" : null;
-
-    private void ToggleNavMenu()
+    private void SubmitText()
     {
-        collapseNavMenu = !collapseNavMenu;
+        EnteredVal = $"Well hello there {InstantValue}!";
     }
 
 #line default

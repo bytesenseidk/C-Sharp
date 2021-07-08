@@ -1270,3 +1270,5 @@ C:\Users\Anonymous\Documents\Programming\GitHub\C-Charp\FirstBlazorApp\FirstBlaz
 C:\Users\Anonymous\Documents\Programming\GitHub\C-Charp\FirstBlazorApp\FirstBlazorApp\obj\Debug\net5.0\FirstBlazorApp.pdb
 C:\Users\Anonymous\Documents\Programming\GitHub\C-Charp\FirstBlazorApp\FirstBlazorApp\obj\Debug\net5.0\serviceworkers\wwwroot\service-worker.js
 C:\Users\Anonymous\Documents\Programming\GitHub\C-Charp\FirstBlazorApp\FirstBlazorApp\obj\Debug\net5.0\service-worker-assets.js
+C:\Users\Anonymous\Documents\Programming\GitHub\C-Charp\FirstBlazorApp\FirstBlazorApp\obj\Debug\net5.0\RazorDeclaration\Pages\TestSite.razor.g.cs
+C:\Users\Anonymous\Documents\Programming\GitHub\C-Charp\FirstBlazorApp\FirstBlazorApp\obj\Debug\net5.0\Razor\Pages\TestSite.razor.g.cs
