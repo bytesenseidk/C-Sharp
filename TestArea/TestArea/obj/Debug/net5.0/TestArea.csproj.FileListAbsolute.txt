@@ -13,3 +13,4 @@ C:\Users\Spazy\Documents\Software\Github\LarsRosenkilde\C-Charp\TestArea\TestAre
 C:\Users\Spazy\Documents\Software\Github\LarsRosenkilde\C-Charp\TestArea\TestArea\obj\Debug\net5.0\ref\TestArea.dll
 C:\Users\Spazy\Documents\Software\Github\LarsRosenkilde\C-Charp\TestArea\TestArea\obj\Debug\net5.0\TestArea.pdb
 C:\Users\Spazy\Documents\Software\Github\LarsRosenkilde\C-Charp\TestArea\TestArea\obj\Debug\net5.0\TestArea.genruntimeconfig.cache
+C:\Users\Spazy\Documents\Software\Github\LarsRosenkilde\C-Charp\TestArea\TestArea\obj\Debug\net5.0\TestArea.csproj.AssemblyReference.cache
