@@ -1,0 +1,15 @@
+C:\Users\Spazy\Documents\Software\Github\LarsRosenkilde\C-Charp\TestArea\TestArea\bin\Debug\net5.0\TestArea.exe
+C:\Users\Spazy\Documents\Software\Github\LarsRosenkilde\C-Charp\TestArea\TestArea\bin\Debug\net5.0\TestArea.deps.json
+C:\Users\Spazy\Documents\Software\Github\LarsRosenkilde\C-Charp\TestArea\TestArea\bin\Debug\net5.0\TestArea.runtimeconfig.json
+C:\Users\Spazy\Documents\Software\Github\LarsRosenkilde\C-Charp\TestArea\TestArea\bin\Debug\net5.0\TestArea.runtimeconfig.dev.json
+C:\Users\Spazy\Documents\Software\Github\LarsRosenkilde\C-Charp\TestArea\TestArea\bin\Debug\net5.0\TestArea.dll
+C:\Users\Spazy\Documents\Software\Github\LarsRosenkilde\C-Charp\TestArea\TestArea\bin\Debug\net5.0\ref\TestArea.dll
+C:\Users\Spazy\Documents\Software\Github\LarsRosenkilde\C-Charp\TestArea\TestArea\bin\Debug\net5.0\TestArea.pdb
+C:\Users\Spazy\Documents\Software\Github\LarsRosenkilde\C-Charp\TestArea\TestArea\obj\Debug\net5.0\TestArea.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Spazy\Documents\Software\Github\LarsRosenkilde\C-Charp\TestArea\TestArea\obj\Debug\net5.0\TestArea.AssemblyInfoInputs.cache
+C:\Users\Spazy\Documents\Software\Github\LarsRosenkilde\C-Charp\TestArea\TestArea\obj\Debug\net5.0\TestArea.AssemblyInfo.cs
+C:\Users\Spazy\Documents\Software\Github\LarsRosenkilde\C-Charp\TestArea\TestArea\obj\Debug\net5.0\TestArea.csproj.CoreCompileInputs.cache
+C:\Users\Spazy\Documents\Software\Github\LarsRosenkilde\C-Charp\TestArea\TestArea\obj\Debug\net5.0\TestArea.dll
+C:\Users\Spazy\Documents\Software\Github\LarsRosenkilde\C-Charp\TestArea\TestArea\obj\Debug\net5.0\ref\TestArea.dll
+C:\Users\Spazy\Documents\Software\Github\LarsRosenkilde\C-Charp\TestArea\TestArea\obj\Debug\net5.0\TestArea.pdb
+C:\Users\Spazy\Documents\Software\Github\LarsRosenkilde\C-Charp\TestArea\TestArea\obj\Debug\net5.0\TestArea.genruntimeconfig.cache
