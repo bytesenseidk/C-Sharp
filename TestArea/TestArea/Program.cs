@@ -10,6 +10,8 @@ namespace TestArea
             if (operatorChoice == "Exit") { System.Environment.Exit(0); }
             else if (operatorChoice == "Addition") { Addition(); }
             else if (operatorChoice == "Subtraction") { Subtraction(); }
+            else if (operatorChoice == "Multiplication") { Multiplication(); }
+            else if (operatorChoice == "Division") { Division(); }
         }
 
         static string Operation()
@@ -87,24 +89,104 @@ namespace TestArea
         {
             int num1; int num2;
             int result;
+            int score = 0;
             Random number = new Random();
 
-            num1 = number.Next(10, 1000);
-            num2 = number.Next(10, 1000);
-            result = num1 - num2;
-
-            string question = $"\n{num1} - {num2} = ";
-
-            Console.Write(question);
-            int answer = Convert.ToInt32(Console.ReadLine());
-
-            if (answer == result)
+            while (true)
             {
-                Console.WriteLine("Correct!");
+                Console.Clear();
+                Console.WriteLine($"\n[ Subtraction ]\nScore: {score}");
+
+                num1 = number.Next(10, 1000);
+                num2 = number.Next(10, 1000);
+                result = num1 - num2;
+
+                string question = $"{num1} - {num2} = ";
+
+                Console.Write(question);
+                int answer = Convert.ToInt32(Console.ReadLine());
+
+                if (answer == result)
+                {
+                    Console.WriteLine("\nCorrect!");
+                    score++;
+                    continue;
+                }
+                else
+                {
+                    Console.WriteLine("\nIncorrect!");
+                    break;
+                }
             }
-            else
+        }
+
+        static void Multiplication()
+        {
+            int num1; int num2;
+            int result;
+            int score = 0;
+            Random number = new Random();
+
+            while (true)
             {
-                Console.WriteLine("Incorrect!");
+                Console.Clear();
+                Console.WriteLine($"\n[ Multiplication ]\nScore: {score}");
+
+                num1 = number.Next(10, 100);
+                num2 = number.Next(10, 100);
+                result = num1 * num2;
+
+                string question = $"{num1} * {num2} = ";
+
+                Console.Write(question);
+                int answer = Convert.ToInt32(Console.ReadLine());
+
+                if (answer == result)
+                {
+                    Console.WriteLine("\nCorrect!");
+                    score++;
+                    continue;
+                }
+                else
+                {
+                    Console.WriteLine("\nIncorrect!");
+                    break;
+                }
+            }
+        }
+
+        static void Division()
+        {
+            int num1; int num2;
+            int result;
+            int score = 0;
+            Random number = new Random();
+
+            while (true)
+            {
+                Console.Clear();
+                Console.WriteLine($"\n[ Division ]\nScore: {score}");
+
+                num1 = number.Next(10, 1000);
+                num2 = number.Next(10, 1000);
+                result = num1 / num2;
+
+                string question = $"{num1} / {num2} = ";
+
+                Console.Write(question);
+                int answer = Convert.ToInt32(Console.ReadLine());
+
+                if (answer == result)
+                {
+                    Console.WriteLine("\nCorrect!");
+                    score++;
+                    continue;
+                }
+                else
+                {
+                    Console.WriteLine("\nIncorrect!");
+                    break;
+                }
             }
         }
     }
