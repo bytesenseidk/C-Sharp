@@ -90,7 +90,7 @@ using PWA_Tool.Shared;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 12 "C:\Users\Anonymous\Documents\Programming\GitHub\C-Charp\PWA-Tool\PWA-Tool\Shared\SurveyPrompt.razor"
+#line 10 "C:\Users\Anonymous\Documents\Programming\GitHub\C-Charp\PWA-Tool\PWA-Tool\Shared\SurveyPrompt.razor"
        
     // Demonstrates how a parent component can supply parameters
     [Parameter]
