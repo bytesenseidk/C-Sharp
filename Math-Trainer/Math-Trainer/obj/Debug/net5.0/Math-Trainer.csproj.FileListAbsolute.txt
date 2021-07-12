@@ -1,0 +1,16 @@
+C:\Users\Spazy\Documents\Software\Github\LarsRosenkilde\C-Charp\Math-Trainer\Math-Trainer\bin\Debug\net5.0\Math-Trainer.exe
+C:\Users\Spazy\Documents\Software\Github\LarsRosenkilde\C-Charp\Math-Trainer\Math-Trainer\bin\Debug\net5.0\Math-Trainer.deps.json
+C:\Users\Spazy\Documents\Software\Github\LarsRosenkilde\C-Charp\Math-Trainer\Math-Trainer\bin\Debug\net5.0\Math-Trainer.runtimeconfig.json
+C:\Users\Spazy\Documents\Software\Github\LarsRosenkilde\C-Charp\Math-Trainer\Math-Trainer\bin\Debug\net5.0\Math-Trainer.runtimeconfig.dev.json
+C:\Users\Spazy\Documents\Software\Github\LarsRosenkilde\C-Charp\Math-Trainer\Math-Trainer\bin\Debug\net5.0\Math-Trainer.dll
+C:\Users\Spazy\Documents\Software\Github\LarsRosenkilde\C-Charp\Math-Trainer\Math-Trainer\bin\Debug\net5.0\ref\Math-Trainer.dll
+C:\Users\Spazy\Documents\Software\Github\LarsRosenkilde\C-Charp\Math-Trainer\Math-Trainer\bin\Debug\net5.0\Math-Trainer.pdb
+C:\Users\Spazy\Documents\Software\Github\LarsRosenkilde\C-Charp\Math-Trainer\Math-Trainer\obj\Debug\net5.0\Math-Trainer.csproj.AssemblyReference.cache
+C:\Users\Spazy\Documents\Software\Github\LarsRosenkilde\C-Charp\Math-Trainer\Math-Trainer\obj\Debug\net5.0\Math-Trainer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Spazy\Documents\Software\Github\LarsRosenkilde\C-Charp\Math-Trainer\Math-Trainer\obj\Debug\net5.0\Math-Trainer.AssemblyInfoInputs.cache
+C:\Users\Spazy\Documents\Software\Github\LarsRosenkilde\C-Charp\Math-Trainer\Math-Trainer\obj\Debug\net5.0\Math-Trainer.AssemblyInfo.cs
+C:\Users\Spazy\Documents\Software\Github\LarsRosenkilde\C-Charp\Math-Trainer\Math-Trainer\obj\Debug\net5.0\Math-Trainer.csproj.CoreCompileInputs.cache
+C:\Users\Spazy\Documents\Software\Github\LarsRosenkilde\C-Charp\Math-Trainer\Math-Trainer\obj\Debug\net5.0\Math-Trainer.dll
+C:\Users\Spazy\Documents\Software\Github\LarsRosenkilde\C-Charp\Math-Trainer\Math-Trainer\obj\Debug\net5.0\ref\Math-Trainer.dll
+C:\Users\Spazy\Documents\Software\Github\LarsRosenkilde\C-Charp\Math-Trainer\Math-Trainer\obj\Debug\net5.0\Math-Trainer.pdb
+C:\Users\Spazy\Documents\Software\Github\LarsRosenkilde\C-Charp\Math-Trainer\Math-Trainer\obj\Debug\net5.0\Math-Trainer.genruntimeconfig.cache
