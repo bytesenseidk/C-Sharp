@@ -60,15 +60,19 @@ namespace TestArea
             while (true)
             {
                 Console.Clear();
-                Console.WriteLine($"\n[ Addition ]\nScore: {score}");
+                Console.WriteLine($"\n[ Addition ]\n\nESC to Exit\nScore: {score}\n\n");
 
                 num1 = number.Next(10, 1000);
                 num2 = number.Next(10, 1000);
                 result = num1 + num2;
 
                 string question = $"{num1} + {num2} = ";
-
                 Console.Write(question);
+
+                if (Console.ReadKey().Key == ConsoleKey.Escape)
+                {
+                    Operation();
+                }
                 int answer = Convert.ToInt32(Console.ReadLine());
 
                 if (answer == result)
@@ -80,7 +84,8 @@ namespace TestArea
                 else
                 {
                     Console.WriteLine("\nIncorrect!");
-                    break;
+                    score--;
+                    continue;
                 }
             }
         }
@@ -95,15 +100,18 @@ namespace TestArea
             while (true)
             {
                 Console.Clear();
-                Console.WriteLine($"\n[ Subtraction ]\nScore: {score}");
+                Console.WriteLine($"\n[ Subtraction ]\n\nESC to Exit\nScore: {score}\n\n");
 
                 num1 = number.Next(10, 1000);
                 num2 = number.Next(10, 1000);
                 result = num1 - num2;
 
                 string question = $"{num1} - {num2} = ";
-
                 Console.Write(question);
+                if (Console.ReadKey().Key == ConsoleKey.Escape)
+                {
+                    Operation();
+                }
                 int answer = Convert.ToInt32(Console.ReadLine());
 
                 if (answer == result)
@@ -130,15 +138,19 @@ namespace TestArea
             while (true)
             {
                 Console.Clear();
-                Console.WriteLine($"\n[ Multiplication ]\nScore: {score}");
+                Console.WriteLine($"\n[ Multiplication ]\n\nESC to Exit\nScore: {score}\n\n");
 
-                num1 = number.Next(10, 100);
-                num2 = number.Next(10, 100);
+                num1 = number.Next(2, 100);
+                num2 = number.Next(2, 100);
                 result = num1 * num2;
 
                 string question = $"{num1} * {num2} = ";
-
                 Console.Write(question);
+
+                if (Console.ReadKey().Key == ConsoleKey.Escape)
+                {
+                    Operation();
+                }
                 int answer = Convert.ToInt32(Console.ReadLine());
 
                 if (answer == result)
@@ -158,23 +170,27 @@ namespace TestArea
         static void Division()
         {
             int num1; int num2;
-            int result;
+            double result;
             int score = 0;
             Random number = new Random();
 
             while (true)
             {
                 Console.Clear();
-                Console.WriteLine($"\n[ Division ]\nScore: {score}");
+                Console.WriteLine($"\n[ Division ]\n\nESC to Exit\nScore: {score}\n\n");
 
-                num1 = number.Next(10, 1000);
-                num2 = number.Next(10, 1000);
+                num1 = number.Next(2, 100);
+                num2 = number.Next(2, 100);
                 result = num1 / num2;
 
                 string question = $"{num1} / {num2} = ";
-
                 Console.Write(question);
-                int answer = Convert.ToInt32(Console.ReadLine());
+
+                if(Console.ReadKey().Key == ConsoleKey.Escape)
+                {
+                    Operation();
+                }
+                double answer = Convert.ToDouble(Console.ReadLine());
 
                 if (answer == result)
                 {
