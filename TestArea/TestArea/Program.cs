@@ -1,20 +1,22 @@
-﻿using System;
+﻿// TODO: Fix highscore & single digit input
+
+using System;
 using System.Collections.Generic;
+using System.IO;
+using System.Text;
+using System.Linq;
+
 namespace TestArea
 {
     class Program
     {
         static void Main(string[] args)
         {
-            string operatorChoice = Operation();
-            if (operatorChoice == "Exit") { System.Environment.Exit(0); }
-            else if (operatorChoice == "Addition") { Addition(); }
-            else if (operatorChoice == "Subtraction") { Subtraction(); }
-            else if (operatorChoice == "Multiplication") { Multiplication(); }
-            else if (operatorChoice == "Division") { Division(); }
+            Operation();
+             
         }
 
-        static string Operation()
+        static void Operation()
         {
             string str_choice;
             Dictionary<int, string> operators = new Dictionary<int, string>()
@@ -47,13 +49,62 @@ namespace TestArea
                     continue;
                 }
             }
-            return str_choice;
+            if (str_choice == "Exit") { System.Environment.Exit(0); }
+            else if (str_choice == "Addition") { Addition(); }
+            else if (str_choice == "Subtraction") { Subtraction(); }
+            else if (str_choice == "Multiplication") { Multiplication(); }
+            else if (str_choice == "Division") { Division(); }
         }
+        // TODO
+        /*
+        static void Highscore(int score, string operation)
+        {
+            bool change = false;
+            int lineIndex = 0;
+            string highscorePath = Environment.CurrentDirectory.Replace(@"\bin\Debug\net5.0", @"\highscore.txt");
+            try
+            {
+                using (StreamReader highscore = File.OpenText(highscorePath))
+                {
+                    string[] scores = highscore.ReadToEnd().Replace(" ", "").Split("\n");
+                    foreach (string hScore in scores)
+                    {
+                        if (hScore.Contains(operation)) {
+                            string[] curScore = hScore.Split(":");
+                            if (Convert.ToInt32(curScore.Last()) < score)
+                            {
+                                change = true;
+                                break;
+                            }
+                            else if (!hScore.Contains(operation))
+                            {
+                                change = true;
+                            }
+                        }
+                        lineIndex++;
+                    }
+                }
+                if (change == true)
+                {
+                    using (StreamWriter highscore = new StreamWriter(highscorePath))
+                    {
+                        string line = File.ReadLines(highscorePath).Skip(lineIndex).Take(1).First();
+                        highscore.WriteLine(line.Replace(line, $"{operation}: {score}"));
+                    }
+                }
+            }
+            catch (Exception E)
+            {
+                Console.WriteLine(E.ToString());
+            }
+        }
+        */
 
         static void Addition()
         {
             int num1; int num2;
             int result;
+            int answer;
             int score = 0;
             Random number = new Random();
 
@@ -73,17 +124,16 @@ namespace TestArea
                 {
                     Operation();
                 }
-                int answer = Convert.ToInt32(Console.ReadLine());
+                
+                answer = Convert.ToInt32(Console.ReadLine());
 
                 if (answer == result)
                 {
-                    Console.WriteLine("\nCorrect!");
                     score++;
                     continue;
                 }
                 else
                 {
-                    Console.WriteLine("\nIncorrect!");
                     score--;
                     continue;
                 }
@@ -116,14 +166,13 @@ namespace TestArea
 
                 if (answer == result)
                 {
-                    Console.WriteLine("\nCorrect!");
                     score++;
                     continue;
                 }
                 else
                 {
-                    Console.WriteLine("\nIncorrect!");
-                    break;
+                    score--;
+                    continue;
                 }
             }
         }
@@ -155,14 +204,13 @@ namespace TestArea
 
                 if (answer == result)
                 {
-                    Console.WriteLine("\nCorrect!");
                     score++;
                     continue;
                 }
                 else
                 {
-                    Console.WriteLine("\nIncorrect!");
-                    break;
+                    score--;
+                    continue;
                 }
             }
         }
@@ -194,14 +242,13 @@ namespace TestArea
 
                 if (answer == result)
                 {
-                    Console.WriteLine("\nCorrect!");
                     score++;
                     continue;
                 }
                 else
                 {
-                    Console.WriteLine("\nIncorrect!");
-                    break;
+                    score--;
+                    continue;
                 }
             }
         }
