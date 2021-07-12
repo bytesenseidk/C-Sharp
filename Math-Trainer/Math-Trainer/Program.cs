@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace Math_Trainer
+﻿namespace Math_Trainer
 {
     class Program
     {
