@@ -1,8 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "ZASlH9BLRDRuYgk5Oz85+RwoGvwtVjV/GQUwqSau1Zy6Sf5RVzUf31PGi+N+C8z7eFYfz5CdSgNgx8DGtscsFQ==",
+<<<<<<< HEAD
+  "dgSpecHash": "RGo1j0V0/QM1GZp0bOX7rg9hBtJHkUyVjRnvK7adbwfgDUFUgeMWNdesCd4uvX8jW8ADZjNlAMFWjsH2IsWmQA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Dell\\Desktop\\Code\\C#\\ObjectOriented\\ObjectOriented\\ObjectOriented.csproj",
+  "projectFilePath": "C:\\Software_Development\\Repositories\\C-Charp\\ObjectOriented\\ObjectOriented\\ObjectOriented.csproj",
+=======
+  "dgSpecHash": "s2MYOV0sbdE/onT293jeq2DWPsR2tBRn9uucQm2DYOYypcXdxIltKivN471EDQnTJmrtwVB6+U3sNjBjBRkmzw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Lars Rosenkilde\\Desktop\\Code\\GithubRepos\\GitHub\\C-Charp\\ObjectOriented\\ObjectOriented\\ObjectOriented.csproj",
+>>>>>>> 65eab44bf64191864db718d5e9c2a57222367616
   "expectedPackageFiles": [],
   "logs": []
 }

@@ -8,32 +8,44 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Dell\\.nuget\\packages\\": {},
+<<<<<<< HEAD
+    "C:\\Users\\Stationær\\.nuget\\packages\\": {}
+=======
+    "C:\\Users\\Lars Rosenkilde\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+>>>>>>> 65eab44bf64191864db718d5e9c2a57222367616
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Dell\\Desktop\\Code\\C#\\ObjectOriented\\ObjectOriented\\ObjectOriented.csproj",
+<<<<<<< HEAD
+      "projectUniqueName": "C:\\Software_Development\\Repositories\\C-Charp\\ObjectOriented\\ObjectOriented\\ObjectOriented.csproj",
       "projectName": "ObjectOriented",
-      "projectPath": "C:\\Users\\Dell\\Desktop\\Code\\C#\\ObjectOriented\\ObjectOriented\\ObjectOriented.csproj",
-      "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Dell\\Desktop\\Code\\C#\\ObjectOriented\\ObjectOriented\\obj\\",
+      "projectPath": "C:\\Software_Development\\Repositories\\C-Charp\\ObjectOriented\\ObjectOriented\\ObjectOriented.csproj",
+      "packagesPath": "C:\\Users\\Stationær\\.nuget\\packages\\",
+      "outputPath": "C:\\Software_Development\\Repositories\\C-Charp\\ObjectOriented\\ObjectOriented\\obj\\",
+=======
+      "projectUniqueName": "C:\\Users\\Lars Rosenkilde\\Desktop\\Code\\GithubRepos\\GitHub\\C-Charp\\ObjectOriented\\ObjectOriented\\ObjectOriented.csproj",
+      "projectName": "ObjectOriented",
+      "projectPath": "C:\\Users\\Lars Rosenkilde\\Desktop\\Code\\GithubRepos\\GitHub\\C-Charp\\ObjectOriented\\ObjectOriented\\ObjectOriented.csproj",
+      "packagesPath": "C:\\Users\\Lars Rosenkilde\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Lars Rosenkilde\\Desktop\\Code\\GithubRepos\\GitHub\\C-Charp\\ObjectOriented\\ObjectOriented\\obj\\",
+>>>>>>> 65eab44bf64191864db718d5e9c2a57222367616
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
+<<<<<<< HEAD
+        "C:\\Users\\Stationær\\AppData\\Roaming\\NuGet\\NuGet.Config",
+=======
+        "C:\\Users\\Lars Rosenkilde\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+>>>>>>> 65eab44bf64191864db718d5e9c2a57222367616
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {}
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {}
       },
       "frameworks": {
         "net6.0": {
@@ -60,12 +72,7 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "frameworkReferences": {
-          "Microsoft.NETCore.App": {
-            "privateAssets": "all"
-          }
-        },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-preview.6.21355.2\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
       }
     }
   }

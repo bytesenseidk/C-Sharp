@@ -1,0 +1,15 @@
+C:\Users\Lars Rosenkilde\Desktop\Code\C#\BodyMassIndex\BodyMassIndex\bin\Debug\net6.0\BodyMassIndex.exe
+C:\Users\Lars Rosenkilde\Desktop\Code\C#\BodyMassIndex\BodyMassIndex\bin\Debug\net6.0\BodyMassIndex.deps.json
+C:\Users\Lars Rosenkilde\Desktop\Code\C#\BodyMassIndex\BodyMassIndex\bin\Debug\net6.0\BodyMassIndex.runtimeconfig.json
+C:\Users\Lars Rosenkilde\Desktop\Code\C#\BodyMassIndex\BodyMassIndex\bin\Debug\net6.0\BodyMassIndex.dll
+C:\Users\Lars Rosenkilde\Desktop\Code\C#\BodyMassIndex\BodyMassIndex\bin\Debug\net6.0\ref\BodyMassIndex.dll
+C:\Users\Lars Rosenkilde\Desktop\Code\C#\BodyMassIndex\BodyMassIndex\bin\Debug\net6.0\BodyMassIndex.pdb
+C:\Users\Lars Rosenkilde\Desktop\Code\C#\BodyMassIndex\BodyMassIndex\obj\Debug\net6.0\BodyMassIndex.csproj.AssemblyReference.cache
+C:\Users\Lars Rosenkilde\Desktop\Code\C#\BodyMassIndex\BodyMassIndex\obj\Debug\net6.0\BodyMassIndex.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lars Rosenkilde\Desktop\Code\C#\BodyMassIndex\BodyMassIndex\obj\Debug\net6.0\BodyMassIndex.AssemblyInfoInputs.cache
+C:\Users\Lars Rosenkilde\Desktop\Code\C#\BodyMassIndex\BodyMassIndex\obj\Debug\net6.0\BodyMassIndex.AssemblyInfo.cs
+C:\Users\Lars Rosenkilde\Desktop\Code\C#\BodyMassIndex\BodyMassIndex\obj\Debug\net6.0\BodyMassIndex.csproj.CoreCompileInputs.cache
+C:\Users\Lars Rosenkilde\Desktop\Code\C#\BodyMassIndex\BodyMassIndex\obj\Debug\net6.0\BodyMassIndex.dll
+C:\Users\Lars Rosenkilde\Desktop\Code\C#\BodyMassIndex\BodyMassIndex\obj\Debug\net6.0\ref\BodyMassIndex.dll
+C:\Users\Lars Rosenkilde\Desktop\Code\C#\BodyMassIndex\BodyMassIndex\obj\Debug\net6.0\BodyMassIndex.pdb
+C:\Users\Lars Rosenkilde\Desktop\Code\C#\BodyMassIndex\BodyMassIndex\obj\Debug\net6.0\BodyMassIndex.genruntimeconfig.cache
