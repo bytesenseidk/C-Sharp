@@ -5,13 +5,12 @@ using System.Globalization;
 // Object Oriented Example
 namespace ObjectOriented
 {
-    public class PersonFirst
+    public class Person
     {
         // Class parameters
         public string first;
         public string last;
-
-        public PersonFirst(string firstName, string lastName)
+        public Person(string firstName, string lastName)
         {
             // Constructor method
             this.first = firstName;
@@ -31,7 +30,7 @@ namespace ObjectOriented
         static void Main(string[] args)
         {
             // Class instance
-            PersonFirst pers_1 = new PersonFirst("lars", "rosenkilde");
+            Person pers_1 = new("lars", "rosenkilde");
             Console.WriteLine(pers_1.Fullname());
         }
     }
