@@ -2,8 +2,7 @@
 
 namespace BodyMassIndex
 {
-    // Super Class
-    class BaseClass
+    class SuperClass
     {
         private double weight;
         private double height;
@@ -13,7 +12,7 @@ namespace BodyMassIndex
             get { return weight; }
             set
             {
-                weight = value < 1 ? 100 : value;
+                weight = value < 1 ? Math.Abs(value) : value;
             }
         }
         public double Height
@@ -21,7 +20,7 @@ namespace BodyMassIndex
             get { return height; }
             set 
             { 
-                height = value < 1 ? 100 : value; 
+                height = value < 1 ? Math.Abs(value) : value; 
             }
         }
 
@@ -30,10 +29,9 @@ namespace BodyMassIndex
             return $"Weight: {Weight}\nHeight: {Height}";
         }
     }
-    // Base Class
-    class DerivedClass : BaseClass
+    internal class BaseClass : SuperClass
     {
-        public DerivedClass(double weight, double height)
+        public BaseClass(double weight, double height)
         {
             Weight = weight;
             Height = height;
@@ -42,18 +40,16 @@ namespace BodyMassIndex
         {
             return Math.Round(Weight / Height / Height * 10_000, 2);
         }
-        // Polymorphism
         public override string Values()
         {
-            return base.Values() + $"\nBMI: {BMI()}";
+            return base.Values() + $"\nBMI: \t{BMI()}";
         }
     }
-    
     class Program
     {
         static void Main(string[] args)
         {
-            DerivedClass Bmi = new(100, 175);
+            BaseClass Bmi = new(100, 175);
             Console.WriteLine(Bmi.Values());   
         }
     }
