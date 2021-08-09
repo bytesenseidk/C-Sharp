@@ -9,8 +9,11 @@
   },
   "packageFolders": {
 <<<<<<< HEAD
+<<<<<<< HEAD
     "C:\\Users\\Stationær\\.nuget\\packages\\": {}
 =======
+=======
+>>>>>>> 65eab44bf64191864db718d5e9c2a57222367616
     "C:\\Users\\Lars Rosenkilde\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
 >>>>>>> 65eab44bf64191864db718d5e9c2a57222367616
@@ -18,6 +21,7 @@
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
 <<<<<<< HEAD
       "projectUniqueName": "C:\\Software_Development\\Repositories\\C-Charp\\ObjectOriented\\ObjectOriented\\ObjectOriented.csproj",
       "projectName": "ObjectOriented",
@@ -31,11 +35,21 @@
       "packagesPath": "C:\\Users\\Lars Rosenkilde\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Lars Rosenkilde\\Desktop\\Code\\GithubRepos\\GitHub\\C-Charp\\ObjectOriented\\ObjectOriented\\obj\\",
 >>>>>>> 65eab44bf64191864db718d5e9c2a57222367616
+=======
+      "projectUniqueName": "C:\\Users\\Lars Rosenkilde\\Desktop\\Code\\GithubRepos\\GitHub\\C-Charp\\ObjectOriented\\ObjectOriented\\ObjectOriented.csproj",
+      "projectName": "ObjectOriented",
+      "projectPath": "C:\\Users\\Lars Rosenkilde\\Desktop\\Code\\GithubRepos\\GitHub\\C-Charp\\ObjectOriented\\ObjectOriented\\ObjectOriented.csproj",
+      "packagesPath": "C:\\Users\\Lars Rosenkilde\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Lars Rosenkilde\\Desktop\\Code\\GithubRepos\\GitHub\\C-Charp\\ObjectOriented\\ObjectOriented\\obj\\",
+>>>>>>> 65eab44bf64191864db718d5e9c2a57222367616
       "projectStyle": "PackageReference",
       "configFilePaths": [
 <<<<<<< HEAD
+<<<<<<< HEAD
         "C:\\Users\\Stationær\\AppData\\Roaming\\NuGet\\NuGet.Config",
 =======
+=======
+>>>>>>> 65eab44bf64191864db718d5e9c2a57222367616
         "C:\\Users\\Lars Rosenkilde\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
 >>>>>>> 65eab44bf64191864db718d5e9c2a57222367616

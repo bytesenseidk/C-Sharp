@@ -1,9 +1,15 @@
 {
   "version": 2,
 <<<<<<< HEAD
+<<<<<<< HEAD
   "dgSpecHash": "RGo1j0V0/QM1GZp0bOX7rg9hBtJHkUyVjRnvK7adbwfgDUFUgeMWNdesCd4uvX8jW8ADZjNlAMFWjsH2IsWmQA==",
   "success": true,
   "projectFilePath": "C:\\Software_Development\\Repositories\\C-Charp\\ObjectOriented\\ObjectOriented\\ObjectOriented.csproj",
+=======
+  "dgSpecHash": "s2MYOV0sbdE/onT293jeq2DWPsR2tBRn9uucQm2DYOYypcXdxIltKivN471EDQnTJmrtwVB6+U3sNjBjBRkmzw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Lars Rosenkilde\\Desktop\\Code\\GithubRepos\\GitHub\\C-Charp\\ObjectOriented\\ObjectOriented\\ObjectOriented.csproj",
+>>>>>>> 65eab44bf64191864db718d5e9c2a57222367616
 =======
   "dgSpecHash": "s2MYOV0sbdE/onT293jeq2DWPsR2tBRn9uucQm2DYOYypcXdxIltKivN471EDQnTJmrtwVB6+U3sNjBjBRkmzw==",
   "success": true,
