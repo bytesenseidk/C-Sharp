@@ -15,7 +15,9 @@ namespace FileIntegrityController
             get { return fileName; }
             set
             {
-                fileName = value ?? throw new ArgumentNullException("No file given");
+                fileName = value.Trim('"') ?? throw new ArgumentNullException("No file given");
+                Directory.SetCurrentDirectory(System.IO.Path.GetDirectoryName(fileName));
+                fileName = Path.GetFileName(fileName);
             }
         }
         public string CheckSum
@@ -111,23 +113,20 @@ namespace FileIntegrityController
     {
         static void Main(string[] args)
         {
-            string file = @"C:\Users\Lars Rosenkilde\Desktop\testfil.txt";
-            string checksum = "9O7DOGWfcZawdjgpuiueLppnw9IqmgxN36xwweZG2uo=";
-
-            SHA256Validation sha256 = new(file, checksum);
-            SHA512Validation sha512 = new(file, checksum);
-            MD5Validation md5 = new(file, checksum);
-            /*
             Console.Write("Enter path to file: ");
             string file = Console.ReadLine();
             Console.Write("Enter checksum: ");
             string checksum = Console.ReadLine();
-            */
+            
+            SHA256Validation sha256 = new(file, checksum);
+            SHA512Validation sha512 = new(file, checksum);
+            MD5Validation md5 = new(file, checksum);
 
             List<bool> checks = new List<bool>()
             {
                 sha256.Validate(), sha512.Validate(), md5.Validate()
             };
+
             List<string> results = new List<string>()
             {
                 sha256.Result(), sha512.Result(), md5.Result()
@@ -138,11 +137,17 @@ namespace FileIntegrityController
             {
                 if (check == true)
                 {
+                    Console.Clear();
                     Console.WriteLine("[ MATCH! ]\n");
                     Console.WriteLine(results[index]);
                     break;
                 }
-                else { Console.WriteLine("[ NO MATCH! ]"); }
+                index++;
+                if (index == checks.Count) 
+                {
+                    Console.Clear();
+                    Console.WriteLine("[ NO MATCH! ]"); 
+                }
             }
         }
     }
