@@ -8,23 +8,23 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Lars Rosenkilde\\.nuget\\packages\\": {},
+    "C:\\Users\\Stationær\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Lars Rosenkilde\\Desktop\\Code\\C#\\BodyMassIndex\\BodyMassIndex\\BodyMassIndex.csproj",
+      "projectUniqueName": "C:\\Software_Development\\Repositories\\C-Charp\\BodyMassIndex\\BodyMassIndex\\BodyMassIndex.csproj",
       "projectName": "BodyMassIndex",
-      "projectPath": "C:\\Users\\Lars Rosenkilde\\Desktop\\Code\\C#\\BodyMassIndex\\BodyMassIndex\\BodyMassIndex.csproj",
-      "packagesPath": "C:\\Users\\Lars Rosenkilde\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Lars Rosenkilde\\Desktop\\Code\\C#\\BodyMassIndex\\BodyMassIndex\\obj\\",
+      "projectPath": "C:\\Software_Development\\Repositories\\C-Charp\\BodyMassIndex\\BodyMassIndex\\BodyMassIndex.csproj",
+      "packagesPath": "C:\\Users\\Stationær\\.nuget\\packages\\",
+      "outputPath": "C:\\Software_Development\\Repositories\\C-Charp\\BodyMassIndex\\BodyMassIndex\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Lars Rosenkilde\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Stationær\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -32,8 +32,7 @@
         "net6.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {}
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {}
       },
       "frameworks": {
         "net6.0": {
