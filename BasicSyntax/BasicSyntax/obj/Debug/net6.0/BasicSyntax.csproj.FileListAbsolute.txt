@@ -1,0 +1,15 @@
+C:\Users\Lars Rosenkilde\Desktop\Code\C#\BasicSyntax\BasicSyntax\bin\Debug\net6.0\BasicSyntax.exe
+C:\Users\Lars Rosenkilde\Desktop\Code\C#\BasicSyntax\BasicSyntax\bin\Debug\net6.0\BasicSyntax.deps.json
+C:\Users\Lars Rosenkilde\Desktop\Code\C#\BasicSyntax\BasicSyntax\bin\Debug\net6.0\BasicSyntax.runtimeconfig.json
+C:\Users\Lars Rosenkilde\Desktop\Code\C#\BasicSyntax\BasicSyntax\bin\Debug\net6.0\BasicSyntax.dll
+C:\Users\Lars Rosenkilde\Desktop\Code\C#\BasicSyntax\BasicSyntax\bin\Debug\net6.0\ref\BasicSyntax.dll
+C:\Users\Lars Rosenkilde\Desktop\Code\C#\BasicSyntax\BasicSyntax\bin\Debug\net6.0\BasicSyntax.pdb
+C:\Users\Lars Rosenkilde\Desktop\Code\C#\BasicSyntax\BasicSyntax\obj\Debug\net6.0\BasicSyntax.csproj.AssemblyReference.cache
+C:\Users\Lars Rosenkilde\Desktop\Code\C#\BasicSyntax\BasicSyntax\obj\Debug\net6.0\BasicSyntax.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lars Rosenkilde\Desktop\Code\C#\BasicSyntax\BasicSyntax\obj\Debug\net6.0\BasicSyntax.AssemblyInfoInputs.cache
+C:\Users\Lars Rosenkilde\Desktop\Code\C#\BasicSyntax\BasicSyntax\obj\Debug\net6.0\BasicSyntax.AssemblyInfo.cs
+C:\Users\Lars Rosenkilde\Desktop\Code\C#\BasicSyntax\BasicSyntax\obj\Debug\net6.0\BasicSyntax.csproj.CoreCompileInputs.cache
+C:\Users\Lars Rosenkilde\Desktop\Code\C#\BasicSyntax\BasicSyntax\obj\Debug\net6.0\BasicSyntax.dll
+C:\Users\Lars Rosenkilde\Desktop\Code\C#\BasicSyntax\BasicSyntax\obj\Debug\net6.0\ref\BasicSyntax.dll
+C:\Users\Lars Rosenkilde\Desktop\Code\C#\BasicSyntax\BasicSyntax\obj\Debug\net6.0\BasicSyntax.pdb
+C:\Users\Lars Rosenkilde\Desktop\Code\C#\BasicSyntax\BasicSyntax\obj\Debug\net6.0\BasicSyntax.genruntimeconfig.cache
