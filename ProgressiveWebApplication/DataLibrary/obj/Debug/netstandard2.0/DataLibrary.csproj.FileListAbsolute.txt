@@ -1,0 +1,10 @@
+C:\Users\Lars Rosenkilde\Desktop\Code\C#\ProgressiveWebApplication\DataLibrary\bin\Debug\netstandard2.0\DataLibrary.deps.json
+C:\Users\Lars Rosenkilde\Desktop\Code\C#\ProgressiveWebApplication\DataLibrary\bin\Debug\netstandard2.0\DataLibrary.dll
+C:\Users\Lars Rosenkilde\Desktop\Code\C#\ProgressiveWebApplication\DataLibrary\bin\Debug\netstandard2.0\DataLibrary.pdb
+C:\Users\Lars Rosenkilde\Desktop\Code\C#\ProgressiveWebApplication\DataLibrary\obj\Debug\netstandard2.0\DataLibrary.csproj.AssemblyReference.cache
+C:\Users\Lars Rosenkilde\Desktop\Code\C#\ProgressiveWebApplication\DataLibrary\obj\Debug\netstandard2.0\DataLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lars Rosenkilde\Desktop\Code\C#\ProgressiveWebApplication\DataLibrary\obj\Debug\netstandard2.0\DataLibrary.AssemblyInfoInputs.cache
+C:\Users\Lars Rosenkilde\Desktop\Code\C#\ProgressiveWebApplication\DataLibrary\obj\Debug\netstandard2.0\DataLibrary.AssemblyInfo.cs
+C:\Users\Lars Rosenkilde\Desktop\Code\C#\ProgressiveWebApplication\DataLibrary\obj\Debug\netstandard2.0\DataLibrary.csproj.CoreCompileInputs.cache
+C:\Users\Lars Rosenkilde\Desktop\Code\C#\ProgressiveWebApplication\DataLibrary\obj\Debug\netstandard2.0\DataLibrary.dll
+C:\Users\Lars Rosenkilde\Desktop\Code\C#\ProgressiveWebApplication\DataLibrary\obj\Debug\netstandard2.0\DataLibrary.pdb
