@@ -1145,19 +1145,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Anonymous\\.nuget\\packages\\": {}
+    "C:\\Users\\Lars Rosenkilde\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Anonymous\\Documents\\Programming\\GitHub\\C-Charp\\FirstBlazorApp\\FirstBlazorApp\\FirstBlazorApp.csproj",
+      "projectUniqueName": "C:\\Users\\Lars Rosenkilde\\Desktop\\Code\\GitHub\\C-Charp\\FirstBlazorApp\\FirstBlazorApp\\FirstBlazorApp.csproj",
       "projectName": "FirstBlazorApp",
-      "projectPath": "C:\\Users\\Anonymous\\Documents\\Programming\\GitHub\\C-Charp\\FirstBlazorApp\\FirstBlazorApp\\FirstBlazorApp.csproj",
-      "packagesPath": "C:\\Users\\Anonymous\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Anonymous\\Documents\\Programming\\GitHub\\C-Charp\\FirstBlazorApp\\FirstBlazorApp\\obj\\",
+      "projectPath": "C:\\Users\\Lars Rosenkilde\\Desktop\\Code\\GitHub\\C-Charp\\FirstBlazorApp\\FirstBlazorApp\\FirstBlazorApp.csproj",
+      "packagesPath": "C:\\Users\\Lars Rosenkilde\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Lars Rosenkilde\\Desktop\\Code\\GitHub\\C-Charp\\FirstBlazorApp\\FirstBlazorApp\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Anonymous\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Lars Rosenkilde\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1209,8 +1214,20 @@
         "warn": true,
         "downloadDependencies": [
           {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[5.0.0, 5.0.0]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[5.0.0, 5.0.0]"
+          },
+          {
             "name": "Microsoft.NETCore.App.Runtime.browser-wasm",
-            "version": "[5.0.7, 5.0.7]"
+            "version": "[5.0.8, 5.0.8]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[5.0.0, 5.0.0]"
           }
         ],
         "frameworkReferences": {
@@ -1218,7 +1235,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-preview.7.21379.14\\RuntimeIdentifierGraph.json"
       }
     },
     "runtimes": {
