@@ -1,2 +1,0 @@
-12345678;test person;9000;aalborg
-87654321;anden test;8000;aarhus
