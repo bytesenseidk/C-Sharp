@@ -1,11 +1,11 @@
 {
   "ContentRoots": [
-    "C:\\Users\\Lars Rosenkilde\\Desktop\\Code\\C#\\ProgressiveWebApplication\\PWATraining\\wwwroot\\",
-    "C:\\Users\\Lars Rosenkilde\\Desktop\\Code\\C#\\ProgressiveWebApplication\\PWATraining\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
-    "C:\\Users\\Lars Rosenkilde\\Desktop\\Code\\C#\\ProgressiveWebApplication\\PWATraining\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
-    "C:\\Users\\Lars Rosenkilde\\Desktop\\Code\\C#\\ProgressiveWebApplication\\PWATraining\\obj\\Debug\\net6.0\\blazor\\",
-    "C:\\Users\\Lars Rosenkilde\\Desktop\\Code\\C#\\ProgressiveWebApplication\\PWATraining\\bin\\Debug\\net6.0\\wwwroot\\",
-    "C:\\Users\\Lars Rosenkilde\\Desktop\\Code\\C#\\ProgressiveWebApplication\\PWATraining\\obj\\Debug\\net6.0\\service-worker\\"
+    "C:\\Users\\Lars Rosenkilde\\Desktop\\Code\\GitHub\\ProgressiveWebApplication\\PWATraining\\wwwroot\\",
+    "C:\\Users\\Lars Rosenkilde\\Desktop\\Code\\GitHub\\ProgressiveWebApplication\\PWATraining\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
+    "C:\\Users\\Lars Rosenkilde\\Desktop\\Code\\GitHub\\ProgressiveWebApplication\\PWATraining\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
+    "C:\\Users\\Lars Rosenkilde\\Desktop\\Code\\GitHub\\ProgressiveWebApplication\\PWATraining\\obj\\Debug\\net6.0\\blazor\\",
+    "C:\\Users\\Lars Rosenkilde\\Desktop\\Code\\GitHub\\ProgressiveWebApplication\\PWATraining\\bin\\Debug\\net6.0\\wwwroot\\",
+    "C:\\Users\\Lars Rosenkilde\\Desktop\\Code\\GitHub\\ProgressiveWebApplication\\PWATraining\\obj\\Debug\\net6.0\\service-worker\\"
   ],
   "Root": {
     "Children": {
@@ -221,54 +221,6 @@
             },
             "Patterns": null
           },
-          "BouncyCastle.Crypto.dll": {
-            "Children": null,
-            "Asset": {
-              "ContentRootIndex": 4,
-              "SubPath": "_framework\\BouncyCastle.Crypto.dll"
-            },
-            "Patterns": null
-          },
-          "Dapper.dll": {
-            "Children": null,
-            "Asset": {
-              "ContentRootIndex": 4,
-              "SubPath": "_framework\\Dapper.dll"
-            },
-            "Patterns": null
-          },
-          "Google.Protobuf.dll": {
-            "Children": null,
-            "Asset": {
-              "ContentRootIndex": 4,
-              "SubPath": "_framework\\Google.Protobuf.dll"
-            },
-            "Patterns": null
-          },
-          "K4os.Compression.LZ4.dll": {
-            "Children": null,
-            "Asset": {
-              "ContentRootIndex": 4,
-              "SubPath": "_framework\\K4os.Compression.LZ4.dll"
-            },
-            "Patterns": null
-          },
-          "K4os.Compression.LZ4.Streams.dll": {
-            "Children": null,
-            "Asset": {
-              "ContentRootIndex": 4,
-              "SubPath": "_framework\\K4os.Compression.LZ4.Streams.dll"
-            },
-            "Patterns": null
-          },
-          "K4os.Hash.xxHash.dll": {
-            "Children": null,
-            "Asset": {
-              "ContentRootIndex": 4,
-              "SubPath": "_framework\\K4os.Hash.xxHash.dll"
-            },
-            "Patterns": null
-          },
           "Microsoft.AspNetCore.Authorization.dll": {
             "Children": null,
             "Asset": {
@@ -445,83 +397,11 @@
             },
             "Patterns": null
           },
-          "Microsoft.Win32.SystemEvents.dll": {
-            "Children": null,
-            "Asset": {
-              "ContentRootIndex": 4,
-              "SubPath": "_framework\\Microsoft.Win32.SystemEvents.dll"
-            },
-            "Patterns": null
-          },
-          "MySql.Data.dll": {
-            "Children": null,
-            "Asset": {
-              "ContentRootIndex": 4,
-              "SubPath": "_framework\\MySql.Data.dll"
-            },
-            "Patterns": null
-          },
-          "Ubiety.Dns.Core.dll": {
-            "Children": null,
-            "Asset": {
-              "ContentRootIndex": 4,
-              "SubPath": "_framework\\Ubiety.Dns.Core.dll"
-            },
-            "Patterns": null
-          },
-          "Zstandard.Net.dll": {
-            "Children": null,
-            "Asset": {
-              "ContentRootIndex": 4,
-              "SubPath": "_framework\\Zstandard.Net.dll"
-            },
-            "Patterns": null
-          },
-          "System.Configuration.ConfigurationManager.dll": {
-            "Children": null,
-            "Asset": {
-              "ContentRootIndex": 4,
-              "SubPath": "_framework\\System.Configuration.ConfigurationManager.dll"
-            },
-            "Patterns": null
-          },
-          "System.Drawing.Common.dll": {
-            "Children": null,
-            "Asset": {
-              "ContentRootIndex": 4,
-              "SubPath": "_framework\\System.Drawing.Common.dll"
-            },
-            "Patterns": null
-          },
           "System.IO.Pipelines.dll": {
             "Children": null,
             "Asset": {
               "ContentRootIndex": 4,
               "SubPath": "_framework\\System.IO.Pipelines.dll"
-            },
-            "Patterns": null
-          },
-          "System.Security.Cryptography.ProtectedData.dll": {
-            "Children": null,
-            "Asset": {
-              "ContentRootIndex": 4,
-              "SubPath": "_framework\\System.Security.Cryptography.ProtectedData.dll"
-            },
-            "Patterns": null
-          },
-          "System.Security.Permissions.dll": {
-            "Children": null,
-            "Asset": {
-              "ContentRootIndex": 4,
-              "SubPath": "_framework\\System.Security.Permissions.dll"
-            },
-            "Patterns": null
-          },
-          "System.Windows.Extensions.dll": {
-            "Children": null,
-            "Asset": {
-              "ContentRootIndex": 4,
-              "SubPath": "_framework\\System.Windows.Extensions.dll"
             },
             "Patterns": null
           },
@@ -1901,22 +1781,6 @@
             },
             "Patterns": null
           },
-          "DataLibrary.dll": {
-            "Children": null,
-            "Asset": {
-              "ContentRootIndex": 4,
-              "SubPath": "_framework\\DataLibrary.dll"
-            },
-            "Patterns": null
-          },
-          "DataLibrary.pdb": {
-            "Children": null,
-            "Asset": {
-              "ContentRootIndex": 4,
-              "SubPath": "_framework\\DataLibrary.pdb"
-            },
-            "Patterns": null
-          },
           "PWATraining.dll": {
             "Children": null,
             "Asset": {
@@ -1946,54 +1810,6 @@
             "Asset": {
               "ContentRootIndex": 3,
               "SubPath": "_framework/dotnet.6.0.0-preview.7.21377.19.js.gz"
-            },
-            "Patterns": null
-          },
-          "BouncyCastle.Crypto.dll.gz": {
-            "Children": null,
-            "Asset": {
-              "ContentRootIndex": 4,
-              "SubPath": "_framework/BouncyCastle.Crypto.dll.gz"
-            },
-            "Patterns": null
-          },
-          "Dapper.dll.gz": {
-            "Children": null,
-            "Asset": {
-              "ContentRootIndex": 4,
-              "SubPath": "_framework/Dapper.dll.gz"
-            },
-            "Patterns": null
-          },
-          "Google.Protobuf.dll.gz": {
-            "Children": null,
-            "Asset": {
-              "ContentRootIndex": 4,
-              "SubPath": "_framework/Google.Protobuf.dll.gz"
-            },
-            "Patterns": null
-          },
-          "K4os.Compression.LZ4.dll.gz": {
-            "Children": null,
-            "Asset": {
-              "ContentRootIndex": 4,
-              "SubPath": "_framework/K4os.Compression.LZ4.dll.gz"
-            },
-            "Patterns": null
-          },
-          "K4os.Compression.LZ4.Streams.dll.gz": {
-            "Children": null,
-            "Asset": {
-              "ContentRootIndex": 4,
-              "SubPath": "_framework/K4os.Compression.LZ4.Streams.dll.gz"
-            },
-            "Patterns": null
-          },
-          "K4os.Hash.xxHash.dll.gz": {
-            "Children": null,
-            "Asset": {
-              "ContentRootIndex": 4,
-              "SubPath": "_framework/K4os.Hash.xxHash.dll.gz"
             },
             "Patterns": null
           },
@@ -2173,83 +1989,11 @@
             },
             "Patterns": null
           },
-          "Microsoft.Win32.SystemEvents.dll.gz": {
-            "Children": null,
-            "Asset": {
-              "ContentRootIndex": 4,
-              "SubPath": "_framework/Microsoft.Win32.SystemEvents.dll.gz"
-            },
-            "Patterns": null
-          },
-          "MySql.Data.dll.gz": {
-            "Children": null,
-            "Asset": {
-              "ContentRootIndex": 4,
-              "SubPath": "_framework/MySql.Data.dll.gz"
-            },
-            "Patterns": null
-          },
-          "Ubiety.Dns.Core.dll.gz": {
-            "Children": null,
-            "Asset": {
-              "ContentRootIndex": 4,
-              "SubPath": "_framework/Ubiety.Dns.Core.dll.gz"
-            },
-            "Patterns": null
-          },
-          "Zstandard.Net.dll.gz": {
-            "Children": null,
-            "Asset": {
-              "ContentRootIndex": 4,
-              "SubPath": "_framework/Zstandard.Net.dll.gz"
-            },
-            "Patterns": null
-          },
-          "System.Configuration.ConfigurationManager.dll.gz": {
-            "Children": null,
-            "Asset": {
-              "ContentRootIndex": 4,
-              "SubPath": "_framework/System.Configuration.ConfigurationManager.dll.gz"
-            },
-            "Patterns": null
-          },
-          "System.Drawing.Common.dll.gz": {
-            "Children": null,
-            "Asset": {
-              "ContentRootIndex": 4,
-              "SubPath": "_framework/System.Drawing.Common.dll.gz"
-            },
-            "Patterns": null
-          },
           "System.IO.Pipelines.dll.gz": {
             "Children": null,
             "Asset": {
               "ContentRootIndex": 4,
               "SubPath": "_framework/System.IO.Pipelines.dll.gz"
-            },
-            "Patterns": null
-          },
-          "System.Security.Cryptography.ProtectedData.dll.gz": {
-            "Children": null,
-            "Asset": {
-              "ContentRootIndex": 4,
-              "SubPath": "_framework/System.Security.Cryptography.ProtectedData.dll.gz"
-            },
-            "Patterns": null
-          },
-          "System.Security.Permissions.dll.gz": {
-            "Children": null,
-            "Asset": {
-              "ContentRootIndex": 4,
-              "SubPath": "_framework/System.Security.Permissions.dll.gz"
-            },
-            "Patterns": null
-          },
-          "System.Windows.Extensions.dll.gz": {
-            "Children": null,
-            "Asset": {
-              "ContentRootIndex": 4,
-              "SubPath": "_framework/System.Windows.Extensions.dll.gz"
             },
             "Patterns": null
           },
@@ -3626,22 +3370,6 @@
             "Asset": {
               "ContentRootIndex": 4,
               "SubPath": "_framework/icudt_no_CJK.dat.gz"
-            },
-            "Patterns": null
-          },
-          "DataLibrary.dll.gz": {
-            "Children": null,
-            "Asset": {
-              "ContentRootIndex": 4,
-              "SubPath": "_framework/DataLibrary.dll.gz"
-            },
-            "Patterns": null
-          },
-          "DataLibrary.pdb.gz": {
-            "Children": null,
-            "Asset": {
-              "ContentRootIndex": 4,
-              "SubPath": "_framework/DataLibrary.pdb.gz"
             },
             "Patterns": null
           },

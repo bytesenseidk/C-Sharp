@@ -122,12 +122,12 @@ namespace FileIntegrityController
             SHA512Validation sha512 = new(file, checksum);
             MD5Validation md5 = new(file, checksum);
 
-            List<bool> checks = new List<bool>()
+            List<bool> checks = new()
             {
                 sha256.Validate(), sha512.Validate(), md5.Validate()
             };
 
-            List<string> results = new List<string>()
+            List<string> results = new()
             {
                 sha256.Result(), sha512.Result(), md5.Result()
             };

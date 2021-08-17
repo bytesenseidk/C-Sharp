@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "tio0ZxWABoW0phKbpKeC9U2cOrfdrkLD+8UFJHvqVLqGTOBiw5+c3hA+hR4+9laqHUOFmvjgkpja38HQvA/3kw==",
+  "dgSpecHash": "2Y0AIPjREY0nsP6pMt8bGF4rvTykGlAS+b6wXz17wuduTvSM6yckf8VlfVR6gNrRtVPKVHr/an7g2EchOou6iA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Lars Rosenkilde\\Desktop\\Code\\C#\\ProgressiveWebApplication\\DataLibrary\\DataLibrary.csproj",
+  "projectFilePath": "C:\\Users\\Lars Rosenkilde\\Desktop\\Code\\GitHub\\ProgressiveWebApplication\\DataLibrary\\DataLibrary.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Lars Rosenkilde\\.nuget\\packages\\bouncycastle.netcore\\1.8.5\\bouncycastle.netcore.1.8.5.nupkg.sha512",
     "C:\\Users\\Lars Rosenkilde\\.nuget\\packages\\dapper\\2.0.90\\dapper.2.0.90.nupkg.sha512",

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Lars Rosenkilde\\Desktop\\Code\\C#\\ProgressiveWebApplication\\DataLibrary\\DataLibrary.csproj": {}
+    "C:\\Users\\Lars Rosenkilde\\Desktop\\Code\\GitHub\\ProgressiveWebApplication\\DataLibrary\\DataLibrary.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Lars Rosenkilde\\Desktop\\Code\\C#\\ProgressiveWebApplication\\DataLibrary\\DataLibrary.csproj": {
+    "C:\\Users\\Lars Rosenkilde\\Desktop\\Code\\GitHub\\ProgressiveWebApplication\\DataLibrary\\DataLibrary.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Lars Rosenkilde\\Desktop\\Code\\C#\\ProgressiveWebApplication\\DataLibrary\\DataLibrary.csproj",
+        "projectUniqueName": "C:\\Users\\Lars Rosenkilde\\Desktop\\Code\\GitHub\\ProgressiveWebApplication\\DataLibrary\\DataLibrary.csproj",
         "projectName": "DataLibrary",
-        "projectPath": "C:\\Users\\Lars Rosenkilde\\Desktop\\Code\\C#\\ProgressiveWebApplication\\DataLibrary\\DataLibrary.csproj",
+        "projectPath": "C:\\Users\\Lars Rosenkilde\\Desktop\\Code\\GitHub\\ProgressiveWebApplication\\DataLibrary\\DataLibrary.csproj",
         "packagesPath": "C:\\Users\\Lars Rosenkilde\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Lars Rosenkilde\\Desktop\\Code\\C#\\ProgressiveWebApplication\\DataLibrary\\obj\\",
+        "outputPath": "C:\\Users\\Lars Rosenkilde\\Desktop\\Code\\GitHub\\ProgressiveWebApplication\\DataLibrary\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
