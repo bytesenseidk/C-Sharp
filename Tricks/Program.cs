@@ -2,9 +2,10 @@
 using static System.Console;
 /* Content:
 - String formatting
+- Exception Handling
+- General Syntax
 - Platform Handling
 */
-
 namespace Tricks
 {
     class StringFormatting 
