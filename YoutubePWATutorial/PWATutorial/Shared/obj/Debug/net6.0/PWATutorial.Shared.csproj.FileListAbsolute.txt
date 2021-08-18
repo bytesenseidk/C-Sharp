@@ -1,0 +1,13 @@
+C:\Users\Lars Rosenkilde\Desktop\Code\C#\YoutubePWATutorial\PWATutorial\Shared\bin\Debug\net6.0\PWATutorial.Shared.deps.json
+C:\Users\Lars Rosenkilde\Desktop\Code\C#\YoutubePWATutorial\PWATutorial\Shared\bin\Debug\net6.0\PWATutorial.Shared.dll
+C:\Users\Lars Rosenkilde\Desktop\Code\C#\YoutubePWATutorial\PWATutorial\Shared\bin\Debug\net6.0\PWATutorial.Shared.pdb
+C:\Users\Lars Rosenkilde\Desktop\Code\C#\YoutubePWATutorial\PWATutorial\Shared\obj\Debug\net6.0\PWATutorial.Shared.csproj.AssemblyReference.cache
+C:\Users\Lars Rosenkilde\Desktop\Code\C#\YoutubePWATutorial\PWATutorial\Shared\obj\Debug\net6.0\PWATutorial.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lars Rosenkilde\Desktop\Code\C#\YoutubePWATutorial\PWATutorial\Shared\obj\Debug\net6.0\PWATutorial.Shared.AssemblyInfoInputs.cache
+C:\Users\Lars Rosenkilde\Desktop\Code\C#\YoutubePWATutorial\PWATutorial\Shared\obj\Debug\net6.0\PWATutorial.Shared.AssemblyInfo.cs
+C:\Users\Lars Rosenkilde\Desktop\Code\C#\YoutubePWATutorial\PWATutorial\Shared\obj\Debug\net6.0\PWATutorial.Shared.ImplicitNamespaceImports.cs
+C:\Users\Lars Rosenkilde\Desktop\Code\C#\YoutubePWATutorial\PWATutorial\Shared\obj\Debug\net6.0\PWATutorial.Shared.csproj.CoreCompileInputs.cache
+C:\Users\Lars Rosenkilde\Desktop\Code\C#\YoutubePWATutorial\PWATutorial\Shared\obj\Debug\net6.0\PWATutorial.Shared.dll
+C:\Users\Lars Rosenkilde\Desktop\Code\C#\YoutubePWATutorial\PWATutorial\Shared\obj\Debug\net6.0\ref\PWATutorial.Shared.dll
+C:\Users\Lars Rosenkilde\Desktop\Code\C#\YoutubePWATutorial\PWATutorial\Shared\obj\Debug\net6.0\PWATutorial.Shared.pdb
+C:\Users\Lars Rosenkilde\Desktop\Code\C#\YoutubePWATutorial\PWATutorial\Shared\bin\Debug\net6.0\ref\PWATutorial.Shared.dll

@@ -1,0 +1,35 @@
+﻿@page "/contacts"
+@using PWATutorial.Shared
+@inject HttpClient Http
+@inject NavigationManager NavigationManager
+
+<div class="col-12">
+    @foreach(var contact in ContactList) 
+    {
+        <a href="/chat/@contact.FirstName" class="list-group-item list-group-item-action flex-column align-items-start">
+            @contact.FirstName<span> </span> @contact.LastName
+        </a>
+    }
+</div>
+
+@code {
+    //private WeatherForecast[]? forecasts;
+    public List<Contact> ContactList { get; set; } = new List<Contact>();
+
+    protected override async Task OnInitializedAsync()
+    {
+        //forecasts = await Http.GetFromJsonAsync<WeatherForecast[]>("WeatherForecast");
+
+        ContactList.Add(new Contact(0, "Dennis", "Ritchie"));
+        ContactList.Add(new Contact(1, "Bjarne", "Stroustrup"));
+        ContactList.Add(new Contact(2, "Anders", "Hejlsberg"));
+        ContactList.Add(new Contact(3, "James", "Gosling"));
+        ContactList.Add(new Contact(4, "Ken", "Thompson"));
+        ContactList.Add(new Contact(5, "Linus", "Torvalds"));
+    }
+
+    private void NavigateToChat()
+    {
+        NavigationManager.NavigateTo("/chat");
+    }
+}

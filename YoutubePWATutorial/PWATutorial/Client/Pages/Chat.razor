@@ -1,0 +1,15 @@
+﻿@page "/chat/"
+@page "/chat/{FirstName}"
+@using PWATutorial.Shared
+
+<h1>This is the chat page of @FirstName</h1>
+<!--ThirdPartyChat/-->
+
+@code {
+	[Parameter]
+	public string? FirstName { get; set; }
+
+	//[Parameter]
+	//public string? FullName { get; set; }
+	
+}
