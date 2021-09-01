@@ -75,7 +75,7 @@ using Portfolio.Client.Shared;
 #line default
 #line hidden
 #nullable disable
-    [Microsoft.AspNetCore.Components.RouteAttribute("/counter")]
+    [Microsoft.AspNetCore.Components.RouteAttribute("/projekter")]
     public partial class Projekter : Microsoft.AspNetCore.Components.ComponentBase
     {
         #pragma warning disable 1998

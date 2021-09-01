@@ -1,7 +1,7 @@
 {
   "FilesToCompress": [
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\_6ROf0iB4EIhusrXfCleeuW8ZISN6a482TnnbefqhpE=.hash",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\NfxK8pC-eAwEKamXZM7lKlYiR0CNSHq2tQbQpShQyKk=.hash",
       "Source": "C:\\Users\\Lars Rosenkilde\\Desktop\\Code\\GitHub\\C-Charp\\MitPortfolio\\Portfolio\\Client\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\Portfolio.Client.dll",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Portfolio.Client.dll.gz"
     },
@@ -266,7 +266,7 @@
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.JSInterop.WebAssembly.dll.gz"
     },
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\FG_sokAUeYdx5JODbgWr_4-rV6AeP5Tf33X6Aqikq0g=.hash",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\_iWeUFOGVscMZWy9Oom6861gjcAxSVSyYrrt4LgNUzE=.hash",
       "Source": "C:\\Users\\Lars Rosenkilde\\Desktop\\Code\\GitHub\\C-Charp\\MitPortfolio\\Portfolio\\Client\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\Portfolio.Client.pdb",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Portfolio.Client.pdb.gz"
     },
@@ -296,12 +296,12 @@
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/blazor.webassembly.js.gz"
     },
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\FF6WYLUuUpq0IShciXp3r4aifmvq2-bWzvm9x3aC7NM=.hash",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\abyNIaLr42qiBJ7gs1AbGfTbGRbV3m7ILWdoS7Bb6bk=.hash",
       "Source": "C:\\Users\\Lars Rosenkilde\\Desktop\\Code\\GitHub\\C-Charp\\MitPortfolio\\Portfolio\\Client\\obj\\Debug\\netstandard2.1\\blazor\\blazor.boot.json",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/blazor.boot.json.gz"
     },
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\bB2qr6SZJMp4BxN1MLvXHQhmXViFzbY57gZY8SBMbdQ=.hash",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\PUTKTQvPKHF7XOkHaxApEWlgcNbWnLvlzvFs8748v0k=.hash",
       "Source": "C:\\Users\\Lars Rosenkilde\\Desktop\\Code\\GitHub\\C-Charp\\MitPortfolio\\Portfolio\\Client\\obj\\Debug\\netstandard2.1\\blazor\\service-worker-assets.js",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\service-worker-assets.js.gz"
     }
