@@ -547,9 +547,7 @@ C:\Users\Lars Rosenkilde\Desktop\Code\GitHub\C-Charp\MitPortfolio\Portfolio\Clie
 C:\Users\Lars Rosenkilde\Desktop\Code\GitHub\C-Charp\MitPortfolio\Portfolio\Client\obj\Debug\netstandard2.1\Portfolio.Client.csproj.CoreCompileInputs.cache
 C:\Users\Lars Rosenkilde\Desktop\Code\GitHub\C-Charp\MitPortfolio\Portfolio\Client\obj\Debug\netstandard2.1\Portfolio.Client.RazorComponent.input.cache
 C:\Users\Lars Rosenkilde\Desktop\Code\GitHub\C-Charp\MitPortfolio\Portfolio\Client\obj\Debug\netstandard2.1\RazorDeclaration\App.razor.g.cs
-C:\Users\Lars Rosenkilde\Desktop\Code\GitHub\C-Charp\MitPortfolio\Portfolio\Client\obj\Debug\netstandard2.1\RazorDeclaration\Pages\Counter.razor.g.cs
 C:\Users\Lars Rosenkilde\Desktop\Code\GitHub\C-Charp\MitPortfolio\Portfolio\Client\obj\Debug\netstandard2.1\RazorDeclaration\Pages\FetchData.razor.g.cs
-C:\Users\Lars Rosenkilde\Desktop\Code\GitHub\C-Charp\MitPortfolio\Portfolio\Client\obj\Debug\netstandard2.1\RazorDeclaration\Pages\Index.razor.g.cs
 C:\Users\Lars Rosenkilde\Desktop\Code\GitHub\C-Charp\MitPortfolio\Portfolio\Client\obj\Debug\netstandard2.1\RazorDeclaration\Shared\MainLayout.razor.g.cs
 C:\Users\Lars Rosenkilde\Desktop\Code\GitHub\C-Charp\MitPortfolio\Portfolio\Client\obj\Debug\netstandard2.1\RazorDeclaration\Shared\NavMenu.razor.g.cs
 C:\Users\Lars Rosenkilde\Desktop\Code\GitHub\C-Charp\MitPortfolio\Portfolio\Client\obj\Debug\netstandard2.1\RazorDeclaration\Shared\SurveyPrompt.razor.g.cs
@@ -560,9 +558,7 @@ C:\Users\Lars Rosenkilde\Desktop\Code\GitHub\C-Charp\MitPortfolio\Portfolio\Clie
 C:\Users\Lars Rosenkilde\Desktop\Code\GitHub\C-Charp\MitPortfolio\Portfolio\Client\obj\Debug\netstandard2.1\Portfolio.Client.TagHelpers.output.cache
 C:\Users\Lars Rosenkilde\Desktop\Code\GitHub\C-Charp\MitPortfolio\Portfolio\Client\obj\Debug\netstandard2.1\Portfolio.Client.RazorCoreGenerate.cache
 C:\Users\Lars Rosenkilde\Desktop\Code\GitHub\C-Charp\MitPortfolio\Portfolio\Client\obj\Debug\netstandard2.1\Razor\App.razor.g.cs
-C:\Users\Lars Rosenkilde\Desktop\Code\GitHub\C-Charp\MitPortfolio\Portfolio\Client\obj\Debug\netstandard2.1\Razor\Pages\Counter.razor.g.cs
 C:\Users\Lars Rosenkilde\Desktop\Code\GitHub\C-Charp\MitPortfolio\Portfolio\Client\obj\Debug\netstandard2.1\Razor\Pages\FetchData.razor.g.cs
-C:\Users\Lars Rosenkilde\Desktop\Code\GitHub\C-Charp\MitPortfolio\Portfolio\Client\obj\Debug\netstandard2.1\Razor\Pages\Index.razor.g.cs
 C:\Users\Lars Rosenkilde\Desktop\Code\GitHub\C-Charp\MitPortfolio\Portfolio\Client\obj\Debug\netstandard2.1\Razor\Shared\MainLayout.razor.g.cs
 C:\Users\Lars Rosenkilde\Desktop\Code\GitHub\C-Charp\MitPortfolio\Portfolio\Client\obj\Debug\netstandard2.1\Razor\Shared\NavMenu.razor.g.cs
 C:\Users\Lars Rosenkilde\Desktop\Code\GitHub\C-Charp\MitPortfolio\Portfolio\Client\obj\Debug\netstandard2.1\Razor\Shared\SurveyPrompt.razor.g.cs
@@ -757,8 +753,12 @@ C:\Users\Lars Rosenkilde\Desktop\Code\GitHub\C-Charp\MitPortfolio\Portfolio\Clie
 C:\Users\Lars Rosenkilde\Desktop\Code\GitHub\C-Charp\MitPortfolio\Portfolio\Client\obj\Debug\netstandard2.1\Portfolio.Client.pdb
 C:\Users\Lars Rosenkilde\Desktop\Code\GitHub\C-Charp\MitPortfolio\Portfolio\Client\obj\Debug\netstandard2.1\blazor\serviceworkers\wwwroot\service-worker.js
 C:\Users\Lars Rosenkilde\Desktop\Code\GitHub\C-Charp\MitPortfolio\Portfolio\Client\obj\Debug\netstandard2.1\blazor\service-worker-assets.js
-C:\Users\Lars Rosenkilde\Desktop\Code\GitHub\C-Charp\MitPortfolio\Portfolio\Client\obj\Debug\netstandard2.1\integrity\tl-CF_Le9KB1x9JUlxcpzLSUyi3bmoLFvopNxH67Nd8=.hash
-C:\Users\Lars Rosenkilde\Desktop\Code\GitHub\C-Charp\MitPortfolio\Portfolio\Client\obj\Debug\netstandard2.1\integrity\vRoNutYPHA8rPUvGi0_px9lhGRgAmoU8NRErMB5ONvw=.hash
-C:\Users\Lars Rosenkilde\Desktop\Code\GitHub\C-Charp\MitPortfolio\Portfolio\Client\obj\Debug\netstandard2.1\integrity\jnDoSjZHsy186x3j4DRNPsHSvtG5j3L4g-6wH7H8S-c=.hash
-C:\Users\Lars Rosenkilde\Desktop\Code\GitHub\C-Charp\MitPortfolio\Portfolio\Client\obj\Debug\netstandard2.1\integrity\2LIqBfQH_1JHNu3cEtQ8cbFtab9OIopzPpSfqxnJ5lc=.hash
-C:\Users\Lars Rosenkilde\Desktop\Code\GitHub\C-Charp\MitPortfolio\Portfolio\Client\obj\Debug\netstandard2.1\integrity\1u-sPFwaTL6L0mT73Nx96yya49QXGrJkGM43u3KtjlU=.hash
+C:\Users\Lars Rosenkilde\Desktop\Code\GitHub\C-Charp\MitPortfolio\Portfolio\Client\obj\Debug\netstandard2.1\RazorDeclaration\Pages\OmMig.razor.g.cs
+C:\Users\Lars Rosenkilde\Desktop\Code\GitHub\C-Charp\MitPortfolio\Portfolio\Client\obj\Debug\netstandard2.1\RazorDeclaration\Pages\Projekter.razor.g.cs
+C:\Users\Lars Rosenkilde\Desktop\Code\GitHub\C-Charp\MitPortfolio\Portfolio\Client\obj\Debug\netstandard2.1\Razor\Pages\OmMig.razor.g.cs
+C:\Users\Lars Rosenkilde\Desktop\Code\GitHub\C-Charp\MitPortfolio\Portfolio\Client\obj\Debug\netstandard2.1\Razor\Pages\Projekter.razor.g.cs
+C:\Users\Lars Rosenkilde\Desktop\Code\GitHub\C-Charp\MitPortfolio\Portfolio\Client\obj\Debug\netstandard2.1\integrity\odmf48e47yWcpDg2fw1K58yXwRz0U3V_84DJ0Pqi9e8=.hash
+C:\Users\Lars Rosenkilde\Desktop\Code\GitHub\C-Charp\MitPortfolio\Portfolio\Client\obj\Debug\netstandard2.1\integrity\_6ROf0iB4EIhusrXfCleeuW8ZISN6a482TnnbefqhpE=.hash
+C:\Users\Lars Rosenkilde\Desktop\Code\GitHub\C-Charp\MitPortfolio\Portfolio\Client\obj\Debug\netstandard2.1\integrity\FG_sokAUeYdx5JODbgWr_4-rV6AeP5Tf33X6Aqikq0g=.hash
+C:\Users\Lars Rosenkilde\Desktop\Code\GitHub\C-Charp\MitPortfolio\Portfolio\Client\obj\Debug\netstandard2.1\integrity\FF6WYLUuUpq0IShciXp3r4aifmvq2-bWzvm9x3aC7NM=.hash
+C:\Users\Lars Rosenkilde\Desktop\Code\GitHub\C-Charp\MitPortfolio\Portfolio\Client\obj\Debug\netstandard2.1\integrity\bB2qr6SZJMp4BxN1MLvXHQhmXViFzbY57gZY8SBMbdQ=.hash
