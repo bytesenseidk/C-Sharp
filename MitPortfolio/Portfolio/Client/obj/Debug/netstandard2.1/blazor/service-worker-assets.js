@@ -1,7 +1,7 @@
 ﻿self.assetsManifest = {
   "assets": [
     {
-      "hash": "sha256-52mE5Sd44M7wWTVObMCztwnaDBrK93t0ZtzevV3AAtE=",
+      "hash": "sha256-5LUg2LrvY8ywGqk0pIYxeYQj1D91vNQ2sWPxi6Xu87s=",
       "url": "css\/app.css"
     },
     {
@@ -57,12 +57,24 @@
       "url": "icon-512.png"
     },
     {
+      "hash": "sha256-T8kgQ83yPKTO7A4N7ghUIowoxuc5HWxo5z6nc7mOk1k=",
+      "url": "Images\/big-eclipse.svg"
+    },
+    {
       "hash": "sha256-Ljb7zE5zqhEyxB1I3Mtvv3TkKazGJ0KYf3FOTp4YZIs=",
       "url": "Images\/github.png"
     },
     {
       "hash": "sha256-Sh5OtMkE1YdLnNLbzlNSpLoqiK\/x\/neQSvAEfLGHVFg=",
       "url": "Images\/instagram.png"
+    },
+    {
+      "hash": "sha256-4yFGwQW74Ul2rKu1oCWE+hzmNhR9+Vp8yVibv1sinF0=",
+      "url": "Images\/mid-eclipse.svg"
+    },
+    {
+      "hash": "sha256-ip52VwH5AuIgXNgEPRzarIN5gPmhG\/ZsG8IQvtHQU5k=",
+      "url": "Images\/small-eclipse.svg"
     },
     {
       "hash": "sha256-3OTtPvxU5YQfOV0Vr8uqvkW6Z3gs0q9uAZMcGVbn5I0=",
@@ -73,7 +85,7 @@
       "url": "manifest.json"
     },
     {
-      "hash": "sha256-et23mc38UNb0aRCIBQzXhtbQ503R2oUCibZOW4a9EL0=",
+      "hash": "sha256-qepU54hYytPbYUjXerKvNaZZ4OB1vXKWUrU7ieQ8Y9c=",
       "url": "_framework\/_bin\/Portfolio.Client.dll"
     },
     {
@@ -285,7 +297,7 @@
       "url": "_framework\/_bin\/Microsoft.JSInterop.WebAssembly.dll"
     },
     {
-      "hash": "sha256-eK7pv5UaLjr0UPHFDToPnFuIULPTO9+NtJcdSMAqhWI=",
+      "hash": "sha256-zAmSjMXJS\/N4088HPoDDE13XJ1ZuFR868xOeZwm1K2Q=",
       "url": "_framework\/_bin\/Portfolio.Client.pdb"
     },
     {
@@ -309,9 +321,9 @@
       "url": "_framework\/blazor.webassembly.js"
     },
     {
-      "hash": "sha256-BNV0h2smI9bxz8BNp\/9TrMmwnEkXM1BfT2bSfIuR2eE=",
+      "hash": "sha256-Vm2yymrExn2FNfh6K470w\/Xotp+ZPsksEu80JwnSCPs=",
       "url": "_framework\/blazor.boot.json"
     }
   ],
-  "version": "6+LX2U2N"
+  "version": "uQN+zoGp"
 };

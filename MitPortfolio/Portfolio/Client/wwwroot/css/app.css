@@ -182,27 +182,51 @@ app {
     }
 }
 
-.cta {
-    padding: 50px, 0px, 0px, 0px;
+.intro-text {
+    text-align: center;
+}
+/*.links {
+    margin-right: 60%;
+    margin-top: 50%;
+}*/
+
+.reference {
+    float: right;
+}
+.reference, label {
+    text-align: left;
+    display: table-cell;
+    padding: 10px;
+    /*margin-right: 100%;*/
+}
+.reference, div.row {
+    display: table-row;
+}
+.reference, img {
+    padding-left: 25%;
 }
 
-.cta-select {
-    border: 2px solid #eb6e34;
-    background: transparent;
-    color: #eb6e34;
-    width: 150px;
-    height: 50px;
-    cursor: pointer;
-    font-size: 16px;
+.big-circle {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    z-index: -1;
+    opacity: 0.5;
+    height: 80%;
 }
 
-.cta-add {
-    background: #eb6e34;
-    width: 150px;
-    height: 50px;
-    cursor: pointer;
-    font-size: 16px;
-    border: none;
-    color: white;
-    margin: 30px, 0px, 0px, 30px;
+.medium-circle {
+    position: absolute;
+    top: 30%;
+    right: 30%;
+    z-index: -1;
+    height: 60%;
+    opacity: 0.4;
+}
+
+.small-circle {
+    position: absolute;
+    bottom: 0%;
+    left: 20%;
+    z-index: -1;
 }

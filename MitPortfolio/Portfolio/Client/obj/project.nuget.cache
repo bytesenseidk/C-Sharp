@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "L1/3P8JJ+yA9qVh8EtGs1Fz5YLePKuwltsE0busa3euYU/iv81c1OmqbJ6QmSfCv7dKH07ppuJWEjYG0RVly5A==",
+  "dgSpecHash": "T/QfIx/owp5wRz9SKaLxolJrz2hEGa5ix6Yvt++LwzQniFt4aUbWXkahyuUFY5XQ6n0rkzTxCm538JfXZcDU1Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Lars Rosenkilde\\Desktop\\Code\\C#\\MitPortfolio\\Portfolio\\Client\\Portfolio.Client.csproj",
+  "projectFilePath": "C:\\Users\\Lars Rosenkilde\\Desktop\\Code\\GitHub\\C-Charp\\MitPortfolio\\Portfolio\\Client\\Portfolio.Client.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Lars Rosenkilde\\.nuget\\packages\\microsoft.aspnetcore.authorization\\3.1.6\\microsoft.aspnetcore.authorization.3.1.6.nupkg.sha512",
     "C:\\Users\\Lars Rosenkilde\\.nuget\\packages\\microsoft.aspnetcore.components\\3.1.6\\microsoft.aspnetcore.components.3.1.6.nupkg.sha512",

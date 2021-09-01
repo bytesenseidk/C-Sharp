@@ -964,11 +964,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Lars Rosenkilde\\Desktop\\Code\\C#\\MitPortfolio\\Portfolio\\Server\\Portfolio.Server.csproj",
+      "projectUniqueName": "C:\\Users\\Lars Rosenkilde\\Desktop\\Code\\GitHub\\C-Charp\\MitPortfolio\\Portfolio\\Server\\Portfolio.Server.csproj",
       "projectName": "Portfolio.Server",
-      "projectPath": "C:\\Users\\Lars Rosenkilde\\Desktop\\Code\\C#\\MitPortfolio\\Portfolio\\Server\\Portfolio.Server.csproj",
+      "projectPath": "C:\\Users\\Lars Rosenkilde\\Desktop\\Code\\GitHub\\C-Charp\\MitPortfolio\\Portfolio\\Server\\Portfolio.Server.csproj",
       "packagesPath": "C:\\Users\\Lars Rosenkilde\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Lars Rosenkilde\\Desktop\\Code\\C#\\MitPortfolio\\Portfolio\\Server\\obj\\",
+      "outputPath": "C:\\Users\\Lars Rosenkilde\\Desktop\\Code\\GitHub\\C-Charp\\MitPortfolio\\Portfolio\\Server\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -991,11 +991,11 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\Lars Rosenkilde\\Desktop\\Code\\C#\\MitPortfolio\\Portfolio\\Client\\Portfolio.Client.csproj": {
-              "projectPath": "C:\\Users\\Lars Rosenkilde\\Desktop\\Code\\C#\\MitPortfolio\\Portfolio\\Client\\Portfolio.Client.csproj"
+            "C:\\Users\\Lars Rosenkilde\\Desktop\\Code\\GitHub\\C-Charp\\MitPortfolio\\Portfolio\\Client\\Portfolio.Client.csproj": {
+              "projectPath": "C:\\Users\\Lars Rosenkilde\\Desktop\\Code\\GitHub\\C-Charp\\MitPortfolio\\Portfolio\\Client\\Portfolio.Client.csproj"
             },
-            "C:\\Users\\Lars Rosenkilde\\Desktop\\Code\\C#\\MitPortfolio\\Portfolio\\Shared\\Portfolio.Shared.csproj": {
-              "projectPath": "C:\\Users\\Lars Rosenkilde\\Desktop\\Code\\C#\\MitPortfolio\\Portfolio\\Shared\\Portfolio.Shared.csproj"
+            "C:\\Users\\Lars Rosenkilde\\Desktop\\Code\\GitHub\\C-Charp\\MitPortfolio\\Portfolio\\Shared\\Portfolio.Shared.csproj": {
+              "projectPath": "C:\\Users\\Lars Rosenkilde\\Desktop\\Code\\GitHub\\C-Charp\\MitPortfolio\\Portfolio\\Shared\\Portfolio.Shared.csproj"
             }
           }
         }

@@ -6,7 +6,7 @@
   "linkerEnabled": false,
   "resources": {
     "assembly": {
-      "Portfolio.Client.dll": "sha256-et23mc38UNb0aRCIBQzXhtbQ503R2oUCibZOW4a9EL0=",
+      "Portfolio.Client.dll": "sha256-qepU54hYytPbYUjXerKvNaZZ4OB1vXKWUrU7ieQ8Y9c=",
       "System.Net.Http.Json.dll": "sha256-99dseBOagY3mzu5Y8Eqm8gRI+o8QbbCp7R2Ew9bQ+5E=",
       "System.Buffers.dll": "sha256-ZxXy75PYbzJxNfAc\/SAP1nUYm4gt1jSaOpFnBb9m85M=",
       "mscorlib.dll": "sha256-BaZPMj95+YNe3G4ckTGD6szZFwZeA2MOHn91zTGKDeU=",
@@ -61,7 +61,7 @@
       "Microsoft.JSInterop.WebAssembly.dll": "sha256-czNf3btAeBW\/vvID5LAfgcsNZ+GM3ssVuPaMflcg0rs="
     },
     "pdb": {
-      "Portfolio.Client.pdb": "sha256-eK7pv5UaLjr0UPHFDToPnFuIULPTO9+NtJcdSMAqhWI=",
+      "Portfolio.Client.pdb": "sha256-zAmSjMXJS\/N4088HPoDDE13XJ1ZuFR868xOeZwm1K2Q=",
       "Portfolio.Shared.pdb": "sha256-HjHFO9wI9o\/7B6ji02tuY8hQAZHG3uA17RZRyDcLjAs="
     },
     "runtime": {
