@@ -1,0 +1,10 @@
+C:\Users\Lars Rosenkilde\Desktop\Code\C#\MitPortfolio\Portfolio\Shared\bin\Debug\netstandard2.1\Portfolio.Shared.deps.json
+C:\Users\Lars Rosenkilde\Desktop\Code\C#\MitPortfolio\Portfolio\Shared\bin\Debug\netstandard2.1\Portfolio.Shared.dll
+C:\Users\Lars Rosenkilde\Desktop\Code\C#\MitPortfolio\Portfolio\Shared\bin\Debug\netstandard2.1\Portfolio.Shared.pdb
+C:\Users\Lars Rosenkilde\Desktop\Code\C#\MitPortfolio\Portfolio\Shared\obj\Debug\netstandard2.1\Portfolio.Shared.csproj.AssemblyReference.cache
+C:\Users\Lars Rosenkilde\Desktop\Code\C#\MitPortfolio\Portfolio\Shared\obj\Debug\netstandard2.1\Portfolio.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lars Rosenkilde\Desktop\Code\C#\MitPortfolio\Portfolio\Shared\obj\Debug\netstandard2.1\Portfolio.Shared.AssemblyInfoInputs.cache
+C:\Users\Lars Rosenkilde\Desktop\Code\C#\MitPortfolio\Portfolio\Shared\obj\Debug\netstandard2.1\Portfolio.Shared.AssemblyInfo.cs
+C:\Users\Lars Rosenkilde\Desktop\Code\C#\MitPortfolio\Portfolio\Shared\obj\Debug\netstandard2.1\Portfolio.Shared.csproj.CoreCompileInputs.cache
+C:\Users\Lars Rosenkilde\Desktop\Code\C#\MitPortfolio\Portfolio\Shared\obj\Debug\netstandard2.1\Portfolio.Shared.dll
+C:\Users\Lars Rosenkilde\Desktop\Code\C#\MitPortfolio\Portfolio\Shared\obj\Debug\netstandard2.1\Portfolio.Shared.pdb
