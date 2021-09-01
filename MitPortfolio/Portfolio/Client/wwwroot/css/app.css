@@ -185,13 +185,23 @@ app {
 .intro-text {
     text-align: center;
 }
-/*.links {
-    margin-right: 60%;
-    margin-top: 50%;
-}*/
+
+.personal-info {
+    float: left;
+    text-align: left;
+    /*padding: 10px !important;*/
+    font: bold;
+    position: absolute;
+    /*margin: 5px 0 0 2px !important;*/
+    display: inline-block;
+}
 
 .reference {
     float: right;
+    margin-top: 2%;
+}
+.reference, br {
+    margin-bottom: 0px;
 }
 .reference, label {
     text-align: left;

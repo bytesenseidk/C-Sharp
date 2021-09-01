@@ -757,8 +757,8 @@ C:\Users\Lars Rosenkilde\Desktop\Code\GitHub\C-Charp\MitPortfolio\Portfolio\Clie
 C:\Users\Lars Rosenkilde\Desktop\Code\GitHub\C-Charp\MitPortfolio\Portfolio\Client\obj\Debug\netstandard2.1\Portfolio.Client.pdb
 C:\Users\Lars Rosenkilde\Desktop\Code\GitHub\C-Charp\MitPortfolio\Portfolio\Client\obj\Debug\netstandard2.1\blazor\serviceworkers\wwwroot\service-worker.js
 C:\Users\Lars Rosenkilde\Desktop\Code\GitHub\C-Charp\MitPortfolio\Portfolio\Client\obj\Debug\netstandard2.1\blazor\service-worker-assets.js
-C:\Users\Lars Rosenkilde\Desktop\Code\GitHub\C-Charp\MitPortfolio\Portfolio\Client\obj\Debug\netstandard2.1\integrity\9edmlifDeZD0C-zvhTPpsVCY1mTEiflOSVgOPa-fODs=.hash
-C:\Users\Lars Rosenkilde\Desktop\Code\GitHub\C-Charp\MitPortfolio\Portfolio\Client\obj\Debug\netstandard2.1\integrity\qepU54hYytPbYUjXerKvNaZZ4OB1vXKWUrU7ieQ8Y9c=.hash
-C:\Users\Lars Rosenkilde\Desktop\Code\GitHub\C-Charp\MitPortfolio\Portfolio\Client\obj\Debug\netstandard2.1\integrity\zAmSjMXJS-N4088HPoDDE13XJ1ZuFR868xOeZwm1K2Q=.hash
-C:\Users\Lars Rosenkilde\Desktop\Code\GitHub\C-Charp\MitPortfolio\Portfolio\Client\obj\Debug\netstandard2.1\integrity\Vm2yymrExn2FNfh6K470w-Xotp_ZPsksEu80JwnSCPs=.hash
-C:\Users\Lars Rosenkilde\Desktop\Code\GitHub\C-Charp\MitPortfolio\Portfolio\Client\obj\Debug\netstandard2.1\integrity\Sq8ftM-3s5IN_7z6RJmgiFFiTvlCUKuVKyUQySsstLE=.hash
+C:\Users\Lars Rosenkilde\Desktop\Code\GitHub\C-Charp\MitPortfolio\Portfolio\Client\obj\Debug\netstandard2.1\integrity\tl-CF_Le9KB1x9JUlxcpzLSUyi3bmoLFvopNxH67Nd8=.hash
+C:\Users\Lars Rosenkilde\Desktop\Code\GitHub\C-Charp\MitPortfolio\Portfolio\Client\obj\Debug\netstandard2.1\integrity\vRoNutYPHA8rPUvGi0_px9lhGRgAmoU8NRErMB5ONvw=.hash
+C:\Users\Lars Rosenkilde\Desktop\Code\GitHub\C-Charp\MitPortfolio\Portfolio\Client\obj\Debug\netstandard2.1\integrity\jnDoSjZHsy186x3j4DRNPsHSvtG5j3L4g-6wH7H8S-c=.hash
+C:\Users\Lars Rosenkilde\Desktop\Code\GitHub\C-Charp\MitPortfolio\Portfolio\Client\obj\Debug\netstandard2.1\integrity\2LIqBfQH_1JHNu3cEtQ8cbFtab9OIopzPpSfqxnJ5lc=.hash
+C:\Users\Lars Rosenkilde\Desktop\Code\GitHub\C-Charp\MitPortfolio\Portfolio\Client\obj\Debug\netstandard2.1\integrity\1u-sPFwaTL6L0mT73Nx96yya49QXGrJkGM43u3KtjlU=.hash
