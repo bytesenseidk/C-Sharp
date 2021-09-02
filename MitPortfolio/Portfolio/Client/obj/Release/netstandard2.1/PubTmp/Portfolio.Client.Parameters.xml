@@ -1,6 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<parameters>
-  <parameter name="IIS Web Application Name" description="" value="rosenkildefront" tags="IisApp">
-    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\Lars\ Rosenkilde\\Desktop\\Code\\GitHub\\C-Charp\\MitPortfolio\\Portfolio\\Client\\obj\\Release\\netstandard2\.1\\PubTmp\\Out\\$" />
-  </parameter>
-</parameters>
