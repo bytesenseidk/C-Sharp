@@ -601,7 +601,6 @@ C:\Users\Lars Rosenkilde\Desktop\Code\GitHub\C-Charp\MitPortfolio\Portfolio\Clie
 C:\Users\Lars Rosenkilde\Desktop\Code\GitHub\C-Charp\MitPortfolio\Portfolio\Client\obj\Debug\netstandard2.1\integrity\LIfCYwg_PHltTK4z3EnbSkA7m2cn8JS4jHVthdKrDF8=.hash
 C:\Users\Lars Rosenkilde\Desktop\Code\GitHub\C-Charp\MitPortfolio\Portfolio\Client\obj\Debug\netstandard2.1\integrity\PEg9ghiKSWBTX0jq8pFDvv2Yvw92Y8W0ELtWrSE4fhA=.hash
 C:\Users\Lars Rosenkilde\Desktop\Code\GitHub\C-Charp\MitPortfolio\Portfolio\Client\obj\Debug\netstandard2.1\integrity\6gJMwefpsWLHWsEipZp143xn8k2Ea27upnXqjUT6iNI=.hash
-C:\Users\Lars Rosenkilde\Desktop\Code\GitHub\C-Charp\MitPortfolio\Portfolio\Client\obj\Debug\netstandard2.1\integrity\v9IxqEj4OlUp-nvWOkEdMm9lcf8JymyjA6JlT5J0EIc=.hash
 C:\Users\Lars Rosenkilde\Desktop\Code\GitHub\C-Charp\MitPortfolio\Portfolio\Client\obj\Debug\netstandard2.1\integrity\FJ_rEgcx6ljTxwbRXZSUGfrDKpVvOxHCSfNxbnXNn3M=.hash
 C:\Users\Lars Rosenkilde\Desktop\Code\GitHub\C-Charp\MitPortfolio\Portfolio\Client\obj\Debug\netstandard2.1\integrity\oK1Bjv95fH_hSbogUkJE_xDAI203kJG6lL6Sm-NuPWg=.hash
 C:\Users\Lars Rosenkilde\Desktop\Code\GitHub\C-Charp\MitPortfolio\Portfolio\Client\obj\Debug\netstandard2.1\integrity\y-FyJQOcW2TOcTp7Iuv8brGBzL5ZP0oJdG7ysK_gtKc=.hash
@@ -616,7 +615,6 @@ C:\Users\Lars Rosenkilde\Desktop\Code\GitHub\C-Charp\MitPortfolio\Portfolio\Clie
 C:\Users\Lars Rosenkilde\Desktop\Code\GitHub\C-Charp\MitPortfolio\Portfolio\Client\obj\Debug\netstandard2.1\integrity\rvTW0d54uLW0iDMAX30lpmr9f8uHoS3YYkEU5zNGhyc=.hash
 C:\Users\Lars Rosenkilde\Desktop\Code\GitHub\C-Charp\MitPortfolio\Portfolio\Client\obj\Debug\netstandard2.1\integrity\LqwA2Rpm96Ualk0IhLZar87kfRCyKHzHTeTt2jYhm7M=.hash
 C:\Users\Lars Rosenkilde\Desktop\Code\GitHub\C-Charp\MitPortfolio\Portfolio\Client\obj\Debug\netstandard2.1\integrity\czNf3btAeBW-vvID5LAfgcsNZ_GM3ssVuPaMflcg0rs=.hash
-C:\Users\Lars Rosenkilde\Desktop\Code\GitHub\C-Charp\MitPortfolio\Portfolio\Client\obj\Debug\netstandard2.1\integrity\HjHFO9wI9o-7B6ji02tuY8hQAZHG3uA17RZRyDcLjAs=.hash
 C:\Users\Lars Rosenkilde\Desktop\Code\GitHub\C-Charp\MitPortfolio\Portfolio\Client\obj\Debug\netstandard2.1\integrity\mPoqx7XczFHBWk3gRNn0hc9ekG1OvkKY4XiKRY5Mj5U=.hash
 C:\Users\Lars Rosenkilde\Desktop\Code\GitHub\C-Charp\MitPortfolio\Portfolio\Client\obj\Debug\netstandard2.1\integrity\3S0qzYaBEKOBXarzVLNzNAFXlwJr6nI3lFlYUpQTPH8=.hash
 C:\Users\Lars Rosenkilde\Desktop\Code\GitHub\C-Charp\MitPortfolio\Portfolio\Client\obj\Debug\netstandard2.1\integrity\UC-3Rm1NkdNdlIrzYARo_dO-HDlS5mhPxo0IQv7kma8=.hash
@@ -757,8 +755,9 @@ C:\Users\Lars Rosenkilde\Desktop\Code\GitHub\C-Charp\MitPortfolio\Portfolio\Clie
 C:\Users\Lars Rosenkilde\Desktop\Code\GitHub\C-Charp\MitPortfolio\Portfolio\Client\obj\Debug\netstandard2.1\RazorDeclaration\Pages\Projekter.razor.g.cs
 C:\Users\Lars Rosenkilde\Desktop\Code\GitHub\C-Charp\MitPortfolio\Portfolio\Client\obj\Debug\netstandard2.1\Razor\Pages\OmMig.razor.g.cs
 C:\Users\Lars Rosenkilde\Desktop\Code\GitHub\C-Charp\MitPortfolio\Portfolio\Client\obj\Debug\netstandard2.1\Razor\Pages\Projekter.razor.g.cs
-C:\Users\Lars Rosenkilde\Desktop\Code\GitHub\C-Charp\MitPortfolio\Portfolio\Client\obj\Debug\netstandard2.1\integrity\QcrYhoW5Yk3shJzul62dmT-V5V-fU_DJLnvfkVulg5c=.hash
-C:\Users\Lars Rosenkilde\Desktop\Code\GitHub\C-Charp\MitPortfolio\Portfolio\Client\obj\Debug\netstandard2.1\integrity\NfxK8pC-eAwEKamXZM7lKlYiR0CNSHq2tQbQpShQyKk=.hash
-C:\Users\Lars Rosenkilde\Desktop\Code\GitHub\C-Charp\MitPortfolio\Portfolio\Client\obj\Debug\netstandard2.1\integrity\_iWeUFOGVscMZWy9Oom6861gjcAxSVSyYrrt4LgNUzE=.hash
-C:\Users\Lars Rosenkilde\Desktop\Code\GitHub\C-Charp\MitPortfolio\Portfolio\Client\obj\Debug\netstandard2.1\integrity\abyNIaLr42qiBJ7gs1AbGfTbGRbV3m7ILWdoS7Bb6bk=.hash
-C:\Users\Lars Rosenkilde\Desktop\Code\GitHub\C-Charp\MitPortfolio\Portfolio\Client\obj\Debug\netstandard2.1\integrity\PUTKTQvPKHF7XOkHaxApEWlgcNbWnLvlzvFs8748v0k=.hash
+C:\Users\Lars Rosenkilde\Desktop\Code\GitHub\C-Charp\MitPortfolio\Portfolio\Client\obj\Debug\netstandard2.1\integrity\SAd6vD6cqYFWMhhyu53OqNK-AjFNoWMI9LkPGBzMlUk=.hash
+C:\Users\Lars Rosenkilde\Desktop\Code\GitHub\C-Charp\MitPortfolio\Portfolio\Client\obj\Debug\netstandard2.1\integrity\RLhScckZbr5LUhhZCuVJSfInpcWf-epjq45Qg62U1As=.hash
+C:\Users\Lars Rosenkilde\Desktop\Code\GitHub\C-Charp\MitPortfolio\Portfolio\Client\obj\Debug\netstandard2.1\integrity\gRFS_n5ZuLXPZPnf0ad9ujhbrtLrMZlAiw5l3fyg5zI=.hash
+C:\Users\Lars Rosenkilde\Desktop\Code\GitHub\C-Charp\MitPortfolio\Portfolio\Client\obj\Debug\netstandard2.1\integrity\HhsDWeXJLCUcaHS_QNrEeBacMyMyENbyCPgYidGr5e0=.hash
+C:\Users\Lars Rosenkilde\Desktop\Code\GitHub\C-Charp\MitPortfolio\Portfolio\Client\obj\Debug\netstandard2.1\integrity\eGXSn7ZmAJgF4TutO6Vh7hExtO1AfnFZa6FB6VKEefM=.hash
+C:\Users\Lars Rosenkilde\Desktop\Code\GitHub\C-Charp\MitPortfolio\Portfolio\Client\obj\Debug\netstandard2.1\integrity\xzFkW-bTsoH4fuFFsum9nSp9BqKeFAmoAH0j78-oszc=.hash

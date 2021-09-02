@@ -1,7 +1,7 @@
 ﻿self.assetsManifest = {
   "assets": [
     {
-      "hash": "sha256-Ekm08OYlxfTh0ieykwYEgJjJdXE3aBJfJk+M04kGhd4=",
+      "hash": "sha256-fkbneVLaEAG3crPU30CoKgpJQSYZgeAAFrfV1Vg4Shw=",
       "url": "css\/app.css"
     },
     {
@@ -77,6 +77,14 @@
       "url": "Images\/small-eclipse.svg"
     },
     {
+      "hash": "sha256-uXyf24qLvfC78vO+CKLcIpJGbCxKUBakvjx5lezMF1M=",
+      "url": "Images\/TopBg.jpeg"
+    },
+    {
+      "hash": "sha256-Qdka9UX7XmZdPt3n9oIYq+WWNH3KqdjM9nXFRChR1PA=",
+      "url": "Images\/TopMenuBg.jpg"
+    },
+    {
       "hash": "sha256-3OTtPvxU5YQfOV0Vr8uqvkW6Z3gs0q9uAZMcGVbn5I0=",
       "url": "index.html"
     },
@@ -85,7 +93,7 @@
       "url": "manifest.json"
     },
     {
-      "hash": "sha256-NfxK8pC\/eAwEKamXZM7lKlYiR0CNSHq2tQbQpShQyKk=",
+      "hash": "sha256-gRFS+n5ZuLXPZPnf0ad9ujhbrtLrMZlAiw5l3fyg5zI=",
       "url": "_framework\/_bin\/Portfolio.Client.dll"
     },
     {
@@ -237,7 +245,7 @@
       "url": "_framework\/_bin\/Microsoft.Extensions.Logging.Abstractions.dll"
     },
     {
-      "hash": "sha256-v9IxqEj4OlUp\/nvWOkEdMm9lcf8JymyjA6JlT5J0EIc=",
+      "hash": "sha256-SAd6vD6cqYFWMhhyu53OqNK\/AjFNoWMI9LkPGBzMlUk=",
       "url": "_framework\/_bin\/Portfolio.Shared.dll"
     },
     {
@@ -297,11 +305,11 @@
       "url": "_framework\/_bin\/Microsoft.JSInterop.WebAssembly.dll"
     },
     {
-      "hash": "sha256-+iWeUFOGVscMZWy9Oom6861gjcAxSVSyYrrt4LgNUzE=",
+      "hash": "sha256-HhsDWeXJLCUcaHS+QNrEeBacMyMyENbyCPgYidGr5e0=",
       "url": "_framework\/_bin\/Portfolio.Client.pdb"
     },
     {
-      "hash": "sha256-HjHFO9wI9o\/7B6ji02tuY8hQAZHG3uA17RZRyDcLjAs=",
+      "hash": "sha256-RLhScckZbr5LUhhZCuVJSfInpcWf\/epjq45Qg62U1As=",
       "url": "_framework\/_bin\/Portfolio.Shared.pdb"
     },
     {
@@ -321,9 +329,9 @@
       "url": "_framework\/blazor.webassembly.js"
     },
     {
-      "hash": "sha256-abyNIaLr42qiBJ7gs1AbGfTbGRbV3m7ILWdoS7Bb6bk=",
+      "hash": "sha256-eGXSn7ZmAJgF4TutO6Vh7hExtO1AfnFZa6FB6VKEefM=",
       "url": "_framework\/blazor.boot.json"
     }
   ],
-  "version": "ORfqLAtB"
+  "version": "7ZrnocA0"
 };

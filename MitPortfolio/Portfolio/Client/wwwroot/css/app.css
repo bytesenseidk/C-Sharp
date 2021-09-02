@@ -1,5 +1,11 @@
 ﻿@import url('open-iconic/font/css/open-iconic-bootstrap.min.css');
 
+a.navbar-brand {
+    white-space: normal;
+    text-align: center;
+    word-break: break-all;
+}
+
 html, body {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
@@ -24,6 +30,8 @@ app {
     height: 3rem;
     display: flex;
     align-items: center;
+    background-color: darkgray;
+    color: #6b6565;
 }
 
 .main {
@@ -34,10 +42,10 @@ app {
         background-color: #f7f7f7;
         border-bottom: 1px solid #d6d5d5;
         justify-content: center;
-        /*margin-top: 5%;*/
+        margin-top: 5%;
     }
 
-/*        .main .top-row > a, .main .top-row .btn-link {
+        .main .top-row > a, .main .top-row .btn-link {
             white-space: nowrap;
             margin-left: 1.5rem;
         }
@@ -45,10 +53,12 @@ app {
 .main .top-row a:first-child {
     overflow: hidden;
     text-overflow: ellipsis;
-}*/
+}
 
 .sidebar {
-    background-image: linear-gradient(180deg, rgb(5, 39, 103) 0%, #3a0647 70%);
+    background-image: linear-gradient(180deg, rgb(49, 125, 224) 0%, #114257 40%);
+    /*background-image: linear-gradient(180deg, rgb(49, 125, 224) 0%, #0e2d3b 30%);*/
+    /*background-image: url(/Images/TopBg.jpg);*/
 }
 
     .sidebar .top-row {
@@ -104,6 +114,12 @@ app {
 
 .navbar-toggler {
     background-color: rgba(255, 255, 255, 0.1);
+}
+
+#github-logo {
+    margin-left: 20%;
+    margin-top: -1%;
+    position: absolute;
 }
 
 .valid.modified:not([type=checkbox]) {
@@ -178,7 +194,7 @@ app {
     }
 
     .sidebar .collapse {
-        /* Never collapse the sidebar for wide screens */
+        /*Never collapse the sidebar for wide screens*/
         display: block;
     }
 }
@@ -215,6 +231,7 @@ app {
 .reference, img {
     padding-left: 25%;
 }
+
 
 .big-circle {
     position: absolute;

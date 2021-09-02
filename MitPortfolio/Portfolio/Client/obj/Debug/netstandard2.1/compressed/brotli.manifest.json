@@ -1,7 +1,7 @@
 {
   "FilesToCompress": [
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\NfxK8pC-eAwEKamXZM7lKlYiR0CNSHq2tQbQpShQyKk=.hash",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\gRFS_n5ZuLXPZPnf0ad9ujhbrtLrMZlAiw5l3fyg5zI=.hash",
       "Source": "C:\\Users\\Lars Rosenkilde\\Desktop\\Code\\GitHub\\C-Charp\\MitPortfolio\\Portfolio\\Client\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\Portfolio.Client.dll",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Portfolio.Client.dll.br"
     },
@@ -191,7 +191,7 @@
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.Extensions.Logging.Abstractions.dll.br"
     },
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\v9IxqEj4OlUp-nvWOkEdMm9lcf8JymyjA6JlT5J0EIc=.hash",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\SAd6vD6cqYFWMhhyu53OqNK-AjFNoWMI9LkPGBzMlUk=.hash",
       "Source": "C:\\Users\\Lars Rosenkilde\\Desktop\\Code\\GitHub\\C-Charp\\MitPortfolio\\Portfolio\\Client\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\Portfolio.Shared.dll",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Portfolio.Shared.dll.br"
     },
@@ -266,12 +266,12 @@
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.JSInterop.WebAssembly.dll.br"
     },
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\_iWeUFOGVscMZWy9Oom6861gjcAxSVSyYrrt4LgNUzE=.hash",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\HhsDWeXJLCUcaHS_QNrEeBacMyMyENbyCPgYidGr5e0=.hash",
       "Source": "C:\\Users\\Lars Rosenkilde\\Desktop\\Code\\GitHub\\C-Charp\\MitPortfolio\\Portfolio\\Client\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\Portfolio.Client.pdb",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Portfolio.Client.pdb.br"
     },
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\HjHFO9wI9o-7B6ji02tuY8hQAZHG3uA17RZRyDcLjAs=.hash",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\RLhScckZbr5LUhhZCuVJSfInpcWf-epjq45Qg62U1As=.hash",
       "Source": "C:\\Users\\Lars Rosenkilde\\Desktop\\Code\\GitHub\\C-Charp\\MitPortfolio\\Portfolio\\Client\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\Portfolio.Shared.pdb",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Portfolio.Shared.pdb.br"
     },
@@ -296,12 +296,12 @@
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/blazor.webassembly.js.br"
     },
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\abyNIaLr42qiBJ7gs1AbGfTbGRbV3m7ILWdoS7Bb6bk=.hash",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\eGXSn7ZmAJgF4TutO6Vh7hExtO1AfnFZa6FB6VKEefM=.hash",
       "Source": "C:\\Users\\Lars Rosenkilde\\Desktop\\Code\\GitHub\\C-Charp\\MitPortfolio\\Portfolio\\Client\\obj\\Debug\\netstandard2.1\\blazor\\blazor.boot.json",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/blazor.boot.json.br"
     },
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\PUTKTQvPKHF7XOkHaxApEWlgcNbWnLvlzvFs8748v0k=.hash",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\xzFkW-bTsoH4fuFFsum9nSp9BqKeFAmoAH0j78-oszc=.hash",
       "Source": "C:\\Users\\Lars Rosenkilde\\Desktop\\Code\\GitHub\\C-Charp\\MitPortfolio\\Portfolio\\Client\\obj\\Debug\\netstandard2.1\\blazor\\service-worker-assets.js",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\service-worker-assets.js.br"
     }
