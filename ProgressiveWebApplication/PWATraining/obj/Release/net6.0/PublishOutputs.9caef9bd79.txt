@@ -1,1 +1,0 @@
-C:\Users\Lars Rosenkilde\Desktop\Code\C#\ProgressiveWebApplication\PWATraining\obj\Release\net6.0\browser-wasm\PubTmp\Out\web.config
