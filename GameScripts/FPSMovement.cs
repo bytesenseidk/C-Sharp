@@ -2,6 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+[RequireComponent(typeof(CharacterController))]
+[AddComponentMenu("Control Script/FPS Movement")]
 public class FPSMovement : MonoBehaviour
 {
     public float speed = 6.0f;
