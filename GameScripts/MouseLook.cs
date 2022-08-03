@@ -42,4 +42,11 @@ public class MouseLook : MonoBehaviour
             transform.localEulerAngles = new Vector3(_rotationX, rotationY, 0);
         }
     }
+
+    void Start() 
+    {
+        Rigidbody body = GetComponent<Rigidbody>();
+        if (body != null)
+            body.freezeRotation = true;
+    }
 }
